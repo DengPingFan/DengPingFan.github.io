@@ -1,0 +1,77 @@
+
+      body {
+        font-size: 15px;
+        padding-bottom: 20px;
+      }
+
+      h1 { font-size: 30px; line-height: 135%;}
+      h2 { font-size: 24px; line-height: 135%;}
+      h3 { font-size: 20px; line-height: 135%;}
+      h4 { font-size: 16px; }
+      h5 { font-size: 15px; }
+      h6 { font-size: 13px; }
+
+      hr {
+        border-top: 1px solid #e5e5e5;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      .navbar {
+        margin-bottom: 5px;
+      }
+
+
+.navbar-inverse {
+  background-color: #243b2b;
+ }
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #243b2b;
+ background-color: #ffffff;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a {
+ color: #243b2b;
+ background-color: #ffffff;
+}
+
+.projectlist {
+  display:flex;
+  flex-flow: row wrap;
+} 
+
+.project {
+  width: 240px;
+  padding-bottom: 10px;
+  margin: 8px;
+  padding: 5px;
+}
+
+.project:hover {
+  background-color: #e7e7e7;
+}
+
+.project .post-title {
+  color: #428bca;
+}
+
+.project .post-excerpt {
+  color: #333;
+}
+
+.project a:hover {
+  text-decoration:none;
+}
+
+img.teaser {
+  float:right;
+  width:45%;
+  padding:15px;
+}
