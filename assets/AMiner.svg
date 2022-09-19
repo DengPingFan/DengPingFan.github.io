@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
+	 height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<g display="inline">
+		<defs>
+			<rect id="SVGID_1_" width="512" height="512"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<rect x="439" opacity="0.4" fill="#FF5050" enable-background="new    " width="73" height="512"/>
+			<rect opacity="0.4" fill="#FF5050" enable-background="new    " width="73" height="512"/>
+			<rect x="73" opacity="0.1" fill="#FF5050" enable-background="new    " width="73" height="512"/>
+			<rect y="73" opacity="0.1" fill="#FF5050" enable-background="new    " width="512" height="73"/>
+			<rect x="366" opacity="0.1" fill="#FF5050" enable-background="new    " width="73" height="512"/>
+			<rect y="366" opacity="0.1" fill="#FF5050" enable-background="new    " width="512" height="73"/>
+			<rect x="-0.5" opacity="0.4" fill="#FF5050" enable-background="new    " width="512" height="73"/>
+			<rect y="439" opacity="0.4" fill="#FF5050" enable-background="new    " width="512" height="73"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M73,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M146,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M219,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M292,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M366,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M439,0v512"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,73H0"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,146H0"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,219H0"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,292H0"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,366H0"/>
+			<path fill="none" stroke="#FF4D4D" stroke-width="0.25" d="M512,439H0"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#403D3C" d="M104.65,404.894c0-99.594,0-199.187,0-299.292
+			c46.621,0,93.246,0,139.869,0c-1.003,2.545-1.873,5.152-3.028,7.625c-27.888,59.647-55.77,119.295-83.729,178.907
+			C140.12,329.748,122.358,367.307,104.65,404.894z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#403D3C" d="M265.574,105.602c46.544,0,93.086,0,139.869,0
+			c0,99.262,0,299.338,0,299.338l-3.875-7.717c0,0-66.816-142.668-100.139-214.042C289.377,157.369,277.521,131.465,265.574,105.602
+			z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#29427F" d="M128.714,406.397c11.386-24.783,22.761-49.575,34.165-74.349
+			c2.083-4.524,4.28-8.995,6.691-14.054c43.257,13.313,86.208,26.534,129.79,39.946c9.959-22.271,19.642-43.921,29.7-66.418
+			c0.885,1.233,1.462,1.827,1.795,2.534c16.877,35.787,50.56,107.393,50.56,107.393l2.128,4.947
+			C383.542,406.397,213.438,406.397,128.714,406.397z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#446B8C" d="M179.03,298.887c7.877-17.119,15.279-33.207,22.791-49.532
+			c31.839-9.061,63.544-18.083,96.219-27.383c6.978,15.68,13.846,31.111,20.879,46.916c-9.458,21.502-18.904,42.977-28.71,65.272
+			C253.286,322.446,216.721,310.846,179.03,298.887z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#CF5F50" d="M288.434,204.504c-25.629,7.709-50.171,15.093-76.64,23.055
+			c14.437-32.582,28.221-63.684,42.782-96.539C266.112,156.062,276.983,179.655,288.434,204.504z"/>
+	</g>
+</g>
+</svg>
