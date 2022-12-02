@@ -2,10 +2,13 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="Deng-Ping Fan&#39;s home page">
-    <link rel="shortcut icon" href="https://dengpingfan.github.io/images/logo-ethz2.png">
+    <link rel="shortcut icon" href="./images/logo-ethz2.png">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://dengpingfan.github.io/assets/jemdoc.css" type="text/css">
+    <link rel="stylesheet" href="./assets/jemdoc.css" type="text/css">
     
+    <!--<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="static/xin.css" rel="stylesheet">-->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,7 +23,7 @@
 
   <body>
     
-     <div id="layout-content" style="margin-top:25px">
+    <div id="layout-content" style="margin-top:25px">
       <table>
         <tbody>
           <tr>
@@ -31,1442 +34,880 @@
               
               <div class="navbar-collapse collapse">
                 <h2>
-                <a href="https://dengpingfan.github.io/index.html">Home|</a>
-                <a href="https://dengpingfan.github.io/pages/Accept.html">Accept_Rate</a>   
+                <!--<a href="index.html">Home|</a>
+                <a href="pages/Publication.html">Publications|</a>
+                <a href="projects/index.htm">Projects|</a>
+                <a href="team/index.htm">Team|</a>
+                <a href="teaching/index.htm">Teaching|</a>
+                <a href="service/index.htm">Service</a>-->
+
+                <a href="index.html">Home|</a>
+                <a href="#Activities">Activities|</a>
+                <a href="#Publications">Publications|</a>
+                <a href="#Awards">Awards|</a>    
+                <a href="#Teams">Teams|</a>   
+                <a href="pages/Accept.html">Accept_Rate</a>   
               </h2>
             </div>    
               <p>
-                Deng-Ping Fan is a Postdoctoral Researcher, working with <a href="https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html"><u>Prof. Luc Van Gool</u></a> in <a href="https://vision.ee.ethz.ch/"><u>Computer Vision Lab</u></a> @ <a href="https://ethz.ch/en.html"><u>ETH Zurich</u></a>.
-                From 2019-2021, he was a research scientist and team lead of IIAI-CV&Med in <a href="http://www.inceptioniai.org/"><u>IIAI</u></a>.
-                He received his PhD. from Nankai University in 2019 under the supervision of <a href="https://mmcheng.net/cmm/"><u>Prof. Ming-Ming Cheng</u></a>.
-                His research interest is in Computer Vision, Machine Learning, and Medical Image Analysis. 
-                Specifically, he focuses on <a href="https://xuebinqin.github.io/dis/index.html">Dichotomous Image Segmentation</a> 
-                (General Object Segmentation, <a href="http://mmcheng.net/cod/">Camouflaged Object Segmentation</a>, Saliency Detection), 
-                Multi-Modal AI. He is a senior member of IEEE and a member of the <a href="https://www.trace.ethz.ch/team/index.html">TRACE-Zurich project</a> on automated driving. 
-                [<a href="https://www.overleaf.com/read/fhcjfgghdddr">CV</a>]
+                <a href="https://vision.ee.ethz.ch/the-institute.html">Computer Vision Lab</a>, ETH Zürich<br>
+                ETF C113.2, Sternwartstrasse 7, 8092 Zürich, Switzerland<br>
+                Email: dengpfan(AT)gmail(DOT)com<br>
               </p>
-
-              <p>
-              范登平博士，是苏黎世联邦理工大学(ETH Zurich)博士后研究员，
-              曾担任IIAI研究员，阿里达摩院高级算法工程师。研究兴趣包括计算机视觉、医学图像分析、认知规律启发的视觉场景理解等。
-              近5年，在CCF A类顶级国际期刊和会议上发表论文约40篇(含6篇IEEE T-PAMI)，
-              4篇期刊论文入选ESI高被引论文(前1%)，连续两年入选CVPR Best Paper Finalists，
-              获2021年度计图开发者大会杰出论文奖、2021年度计图开发者大会最具影响力（应用）论文奖，
-              获2021年度CCF优秀博士学位论文奖，谷歌学术总引用7500+次。
-              “<a href="https://ieeexplore.ieee.org/document/9444794"><u>伪装目标检测</u></a>”任务(<a href="http://mc.nankai.edu.cn/cod">Demo</a>)被英国《New Scientist》权威杂志撰文报道，
-              <a href="https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26"><u>PraNet</u></a>
-              自动息肉分割模型在MediaEval 2020竞赛上取得精度指标冠军并被<a href="https://aiindex.stanford.edu/wp-content/uploads/2022/03/2022-AI-Index-Report_Master.pdf">斯坦福2022年人工智能指数报告引用</a>，
-              <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zhuge_Kaleido-BERT_Vision-Language_Pre-Training_on_Fashion_Domain_CVPR_2021_paper.html"><u>Kaleido-BERT</u></a>
-              被用于阿里电商搜索系统，授权发明专利8项（美国3项，<a href="http://www.soopat.com/Home/Result?Sort=&View=&Columns=&Valid=&Embed=&Db=&Ids=&FolderIds=&FolderId=&ImportPatentIndex=&Filter=&SearchWord=FMR%3A%28%E8%8C%83%E7%99%BB%E5%B9%B3%29+&FMZL=Y"><u>中国</u></a>5项），           
-              合著出版英文专著 (含章节) 1部。是IEEE高级会员、CCF高级会员、CIE高级会员、IJCAI’21资深程序委员会委员、第七届MICCAI眼科医学影像分析研讨会领域主席、任国际刊物<a href= "https://www.sciepublish.com/index/journals/editors/cvml/21.html">Computer Vision and Machine Learning</a>编委。
-              </p> <!--5次获得CVPR/ICCV/IJCAI oral，-->
-              
               <h3 style="padding-top:-5px"></h3>
-              <img src="https://dengpingfan.github.io/assets/dblp.png" width="15" height="15" style="margin-bottom:-3px">&nbsp;
-              <a href="https://dblp.org/pid/205/3148.html">DBLP</a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <object id="object" data="https://dengpingfan.github.io/assets/scholar.svg" width="15" height="15" type="image/svg+xml"></object> &nbsp;
+              <object id="object" data="assets/scholar.svg" width="15" height="15" type="image/svg+xml"></object> &nbsp;
               <a href="https://scholar.google.com/citations?user=kakwJ5QAAAAJ&hl=zh-CN&oi=ao" target="_blank">Google Scholar</a>
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <object id="object" data="https://dengpingfan.github.io/assets/github.svg" width="15" height="15" type="image/svg+xml"></object> &nbsp;
+              &nbsp; &nbsp; &nbsp;
+              <img src="./assets/SeSc.png" width="15" height="15" style="margin-bottom:-3px">&nbsp;
+              <a href="https://www.semanticscholar.org/author/Deng-Ping-Fan/23999143">Semantic Scholar</a>
+              &nbsp; &nbsp; &nbsp;
+              <img src="./assets/RG.png" width="15" height="15" style="margin-bottom:-3px">&nbsp;
+              <a href="https://www.researchgate.net/profile/Deng-Ping-Fan">Research Gate</a>
+              &nbsp; &nbsp; &nbsp;
+              <img src="./assets/dblp.png" width="15" height="15" style="margin-bottom:-3px">&nbsp;
+              <a href="https://dblp.org/pid/205/3148.html">DBLP</a>
+              &nbsp; &nbsp; &nbsp;
+              <object id="object" data="assets/AMiner.svg" width="15" height="15" type="image/svg+xml"></object> &nbsp;
+              <a href="https://www.aminer.cn/ai2000/search_rank?id=53f31e7fdabfae9a844480c5&searchValue=%E8%8C%83%E7%99%BB%E5%B9%B3&yearLeft=2018&yearRight=2022" target="_blank">AI Open Index</a>
+              &nbsp; &nbsp; &nbsp;
+              <object id="object" data="assets/github.svg" width="15" height="15" type="image/svg+xml"></object> &nbsp;
               <a href="https://github.com/DengPingFan" target="_blank">Github</a> 
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp;
+              <img src="./assets/linkin.png" width="15" height="15" style="margin-bottom:-3px">&nbsp;
+              <a href="https://www.linkedin.com/in/deng-ping-fan-584b25198/">Linkedin</a>
+              &nbsp; &nbsp; &nbsp;
               <a href="http://web.archive.org/web/20220112230725/http://dpfan.net/">Previous-Homepage</a>
             </td>
             <td>
-              <img src="https://dengpingfan.github.io/images/2-inch.jpg" border="0" width="200">
+              <img src="./images/2-inch.jpg" border="0" width="150">
             </td>
-          
           </tr>
         </tbody>
       </table>
       
-      <!-- Acceptance Rate -->
+      <!-- Preprints -->
       <h2> 
-        <a id="Acceptance" class = "anchor" href="#Acceptance" >Acceptance Rate</a>
+        <a id="Publications" class = "anchor" href="#Publications">Preprints (*: Corresponding, ^Equal contributions)</a>
       </h2>
-      <ul> 
-        <a>This list was created for personal interest. Sources of the information derive from official announcements.</a><br>
-        <a>Refer:</a> 
-        <a href="https://www.guide2research.com/topconf/">Guide2research</a>; 
-        <a href="https://scholar.google.com/citations?view_op=top_venues&hl=zh-CN">Google Index</a>; 
-        <a href="https://kesen.realtimerendering.com/">SIGGRAPH</a><br>
-        <!--<a href="https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=9D19F5250060C92B6A647ADA76DDEBC2E5E42EEEC7E6158BFC3C6335AF89DDE2">中国计算机学会推荐国际学术会议和期刊目录-2022（拟定）</a><br>-->
-        <a href="https://dengpingfan.github.io/papers/CCF-Recommend-2019.pdf">2019年CCF推荐国际学术会议和期刊目录.pdf</a><br>
-        <a href="https://dengpingfan.github.io/papers/TH-CPL-2019.pdf">2019年清华大学计算机学科群推荐学术会议和期刊列表.pdf</a><br>
-        <a href="https://dengpingfan.github.io/papers/CCF-ChineseJRecommend-2019.pdf">2019年CCF推荐中文科技期刊目录.pdf</a><br>
-        <a>CVPR,ICCV,ECCV; ICLR,ICML,NIPS; AAAI,IJCAI; MICCAI</a><br>
-        <a><font color="red">Updated: 2022-07-13</font></a><br>
-         <li>
+      <ul>
+        <li>
           <p>
-            <b>ICLR (2013–) 9月 h5: 150->203->253</b><br><br>
-            <table border="1" cellspacing="0" width="600">
-            <thead>
-              <tr>
-              <th>year</th>
-              <th>submitted</th>
-              <th>oral</th>
-              <th>poster</th>
-              <th>total</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-              <td>2017</td>
-              <td>507</td>
-              <td>15(3.0%)</td>
-              <td>183(36.1%)</td>
-              <td>198(39.1%)</td>
-              </tr>
-              <tr>
-              <td>2018</td>
-              <td>981</td>
-              <td>23(2.3%)</td>
-              <td>291(29.7%)</td>
-              <td>314(32.0%)</td>
-              </tr>
-              <tr>
-              <td>2019</td>
-              <td>1592</td>
-              <td>24(1.5%)</td>
-              <td>476(30.0%)</td>
-              <td>500(31.4%)</td>
-              </tr>
-              <tr>
-              <td>2020</td>
-              <td>2594</td>
-              <td>Oral-48(1.85%) Spotlight-108 (4.16%)</td>
-              <td>531(20.5%)</td>
-              <td>687(26.5%)</td>
-              </tr>
-              <tr>
-              <td>2021</td>
-              <td>2997</td>
-              <td>
-              <p>Outstanding-8 (0.27%)</p>
-              <p>Oral-53(1.77%)</p>
-              <p>Spotlight-114(3.9%)</p>
-              </td>
-              <td>693(23.1%)</td>
-              <td>860(28.7%)</td>
-              </tr>
-              <tr>
-              <td>2022</td>
-              <td>3391</td>
-              <td>
-              <p>Outstanding-7/Mention-3 (0.29%)</p>
-              <p>Oral-54(1.59%)</p>
-              <p>Spotlight-176(5.19%)</p>
-              </td>
-              <td>865(25.5%)</td>
-              <td>1095(32.3%)</td>
-              </tr>
-              <tr>
-              <td>2023</td>
-              <td></td>
-              <td>
-              <p>Outstanding-x (xx%)</p>
-              <p>Oral-x(xx%)</p>
-              <p>Spotlight-x(xx%)</p>
-              </td>
-              <td></td>
-              <td></td>
-              </tr>
-            </tbody>
-            </table>
+            <b>GCoNet+: A Stronger Group Collaborative Co-Salient Object Detector</b><br>
+            Peng Zheng^, Huazhu Fu^, <strong>Deng-Ping Fan*</strong>, Qi Fan, Jie Qin, Yu-Wing Tai, Chi-Keung Tang, and Luc Van Gool<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Major</i>, 2022. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Fan_Group_Collaborative_Learning_for_Co-Salient_Object_Detection_CVPR_2021_paper.html" style="color:#2E41DC;"><u>CVPR 2021</u></a>]<br>
+            <a href="https://arxiv.org/abs/2205.15469">[PDF]</a>
+            <a href="https://github.com/ZhengPeng7/GCoNet_plus">[Code]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>CVPR (1983–) (CCF A类） November (11月)  h5: 240->299->356</b><br><br>
-              <table border="1" cellspacing="0" width="700">
-              <thead>
-              <tr>
-              <th>year</th>
-              <th>submitted</th>
-              <th>oral+spotlight</th>
-              <th>poster</th>
-              <th>total</th>
-              </tr>
-              </thead>
-              <tbody>
-                <tr>
-                <td>2000</td>
-                <td>466</td>
-                <td>66(14.2%)</td>
-                <td>154(33.0%)</td>
-                <td>220(47.2%)</td>
-                </tr>
-                <tr>
-                <td>2001</td>
-                <td>920</td>
-                <td>78(8.5%)</td>
-                <td>202(22.0%)</td>
-                <td>280(30.5%)</td>
-                </tr>
-                <tr>
-                <td>2003</td>
-                <td>905</td>
-                <td>60(6.6%)</td>
-                <td>149(16.5%)</td>
-                <td>209(23.1%)</td>
-                </tr>
-                <tr>
-                <td>2004</td>
-                <td>873</td>
-                <td>54(6.2%)</td>
-                <td>206(23.6%)</td>
-                <td>260(29.8%)</td>
-                </tr>
-                <tr>
-                <td>2005</td>
-                <td>1160</td>
-                <td>75(6.5%)</td>
-                <td>251(21.6%)</td>
-                <td>326(28.1%)</td>
-                </tr>
-                <tr>
-                <td>2006</td>
-                <td>1131</td>
-                <td>54(4.8%)</td>
-                <td>264(23.3%)</td>
-                <td>318(28.1%)</td>
-                </tr>
-                <tr>
-                <td>2007</td>
-                <td>1250</td>
-                <td>60(4.8%)</td>
-                <td>293(23.4%)</td>
-                <td>353(28.2%)</td>
-                </tr>
-                <tr>
-                <td>2008</td>
-                <td>1593</td>
-                <td>64(4.0%)</td>
-                <td>444(27.9%)</td>
-                <td>508(31.9%)</td>
-                </tr>
-                <tr>
-                <td>2009</td>
-                <td>1464</td>
-                <td>61(4.2%)</td>
-                <td>323(22.0%)</td>
-                <td>384(26.2%)</td>
-                </tr>
-                <tr>
-                <td>2010</td>
-                <td>1724</td>
-                <td>78(4.5%)</td>
-                <td>384(22.3%)</td>
-                <td>462(26.8%)</td>
-                </tr>
-                <tr>
-                <td>2011</td>
-                <td>1677</td>
-                <td>59(3.5%)</td>
-                <td>377(22.5%)</td>
-                <td>436(26.0%)</td>
-                </tr>
-                <tr>
-                <td>2012</td>
-                <td>1933</td>
-                <td>48(2.5%)</td>
-                <td>415(22.5%)</td>
-                <td>463(24.0%)</td>
-                </tr>
-                <tr>
-                <td>2013</td>
-                <td>1870</td>
-                <td>60(3.2%)</td>
-                <td>411(22.0%)</td>
-                <td>471(25.2%)</td>
-                </tr>
-                <tr>
-                <td>2014</td>
-                <td>1807</td>
-                <td>104(5.8%)</td>
-                <td>436(24.1%)</td>
-                <td>540(29.9%)</td>
-                </tr>
-                <tr>
-                <td>2015</td>
-                <td>2123</td>
-                <td>71(3.3%)</td>
-                <td>531(25.0%)</td>
-                <td>602(28.3%)</td>
-                </tr>
-                <tr>
-                <td>2016</td>
-                <td>2145</td>
-                <td>82 (3.8%)+123(9.5%)</td>
-                <td>438(20.4%)</td>
-                <td>643(29.9%)</td>
-                </tr>
-                <tr>
-                <td>2017</td>
-                <td>2620</td>
-                <td>71 (2.7%)+144(8.2%)</td>
-                <td>568(21.7%)</td>
-                <td>783(29.9%)</td>
-                </tr>
-                <tr>
-                <td>2018</td>
-                <td>3309</td>
-                <td>70 (2.1%)+224(8.9%)</td>
-                <td>685(20.7%)</td>
-                <td>979(29.5%)</td>
-                </tr>
-                <tr>
-                <td>2019</td>
-                <td>5165</td>
-                <td>45 best paper finalist (0.87%) + 288 oral (5.6%)</td>
-                <td>1006(19.5%)</td>
-                <td>1294(25.1%)</td>
-                </tr>
-                <tr>
-                <td>2020</td>
-                <td>5865</td>
-                <td>26 paper award nominees (0.44%) + 335 oral (5.7%) </td>
-                <td>1135(19.3%)</td>
-                <td>1467(25.0%)</td>
-                </tr>
-                <tr>
-                <td>2021</td>
-                <td>7039</td>
-                <td>
-                <p>32 best paper candidates (0.45%) + 295 oral (4.19%)</p>
-                <p>1047 withdrawn (14.87%)</p>
-                </td>
-                <td>1366(19.4%)</td>
-                <td>1663(23.6%)</td>
-                </tr>
-                <tr>
-                <td>2022</td>
-                <td>8161</td>
-                <td>
-                  <p>33 best paper finalists (0.4%) + 344 oral (4.22%)</p>
-                </td>
-                <td>1720(21.1%)</td>
-                <td>2064(25.3%)</td>
-                </tr>
-                <tr>
-                <td>2023</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                </tr>
-              </tbody>
-            </table>
+            <b>Weakly Supervised Visual-Auditory Fixation Prediction with Multigranularity Perception</b><br>
+            Guotao Wang, Chenglizhao Chen*, <strong>Deng-Ping Fan</strong>, Aimin Hao, Hong Qin<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Major</i>, 2022. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Wang_From_Semantic_Categories_to_Fixations_A_Novel_Weakly-Supervised_Visual-Auditory_Saliency_CVPR_2021_paper.html" style="color:#2E41DC;"><u>CVPR 2021</u></a>]<br>
+            <a href="https://arxiv.org/abs/2112.13697">[PDF]</a>
+            <a href="papers/[2022][TPAMI-Major]SCAM_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/guotaowang/STANet">[Code]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>ICCV (1987–) (CCF A类)  3月 h5: 129->176->184</b><br><br>
-            <table border="1" cellspacing="0" width="300">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>oral+spotlight</th>
-            <th>poster</th>
-            <th>total</th>
-            </tr>
-            </thead>
-            <tbody>
-              <tr>
-              <td> 1988</td>
-              <td>306</td>
-              <td></td>
-              <td></td>
-              <td> 89(29.1%)</td>
-              </tr>
-              <tr>
-              <td> 1993</td>
-              <td>380</td>
-              <td></td>
-              <td></td>
-              <td> 101(26.6%)</td>
-              </tr>
-              <tr>
-              <td> 1998</td>
-              <td>550</td>
-              <td></td>
-              <td></td>
-              <td> 167(30.4%)</td>
-              </tr>
-              <tr>
-              <td> 1999</td>
-              <td>575</td>
-              <td></td>
-              <td></td>
-              <td> 178(31.0%)</td>
-              </tr>
-              <tr>
-              <td> 2001</td>
-              <td>596</td>
-              <td> 45(7.6%)</td>
-              <td> 160(26.8%)</td>
-              <td> 205(34.4%)</td>
-              </tr>
-              <tr>
-              <td> 2003</td>
-              <td>966</td>
-              <td> 43(4.4%)</td>
-              <td> 155(16.1%)</td>
-              <td> 198(20.5%)</td>
-              </tr>
-              <tr>
-              <td> 2005</td>
-              <td>1230</td>
-              <td> 46(3.7%)</td>
-              <td> 198(16.2%)</td>
-              <td> 244(19.8%)</td>
-              </tr>
-              <tr>
-              <td> 2007</td>
-              <td>1190</td>
-              <td> 47(3.9%)</td>
-              <td> 227(19.1%)</td>
-              <td> 274(23.0%)</td>
-              </tr>
-              <tr>
-              <td> 2009</td>
-              <td>1327</td>
-              <td> 48(3.6%)</td>
-              <td> 260(19.6%)</td>
-              <td> 308(23.2%)</td>
-              </tr>
-              <tr>
-              <td> 2011</td>
-              <td>1433</td>
-              <td> 39(2.7%)</td>
-              <td> 394(27.5%)</td>
-              <td> 433(30.2%)</td>
-              </tr>
-              <tr>
-              <td> 2013</td>
-              <td>1629</td>
-              <td> 41(2.5%)</td>
-              <td> 413(25.4%)</td>
-              <td> 454(27.9%)</td>
-              </tr>
-              <tr>
-              <td> 2015</td>
-              <td>1698</td>
-              <td> 56(3.3%)</td>
-              <td> 469(27.6%)</td>
-              <td> 525(30.9%)</td>
-              </tr>
-              <tr>
-              <td> 2017</td>
-              <td>2143</td>
-              <td> 56(2.6%)+56(2.6%)</td>
-              <td> 509(23.7%)</td>
-              <td> 621(28.9%)</td>
-              </tr>
-              <tr>
-              <td> 2019</td>
-              <td>4303</td>
-              <td>200(4.6%)-oral</td>
-              <td> 875(20.3%)</td>
-              <td> 1075(25.0%)</td>
-              </tr>
-              <tr>
-              <td> 2021</td>
-              <td>6236</td>
-              <td> 210(3.4%)-oral</td>
-              <td> 1407(22.6%)</td>
-              <td> 1617(25.9%)</td>
-              </tr>
-              <tr>
-              <td> 2023</td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              </tr>
-            </tbody>
-            </table>
+            <b>IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment</b><br>
+            Yingjie Zhai, Tinglei Feng, Jufeng Yang, Jie Liang, <strong>Deng-Ping Fan</strong>, Jing Zhang, Ling Shao, Dacheng Tao<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Major</i>, 2022. (IF: 24.314)<br>
+            <a href="">[PDF]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>ECCV (1990–)（CCF B类） 3月 h5: 137->144->197</b><br><br>
-            <table border="1" cellspacing="0" width="300">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>oral+spotlight</th>
-            <th>poster</th>
-            <th>total</th>
-              </tr>
-              </thead>
-              <tbody>
-              <td>2002</td>
-              <td>600</td>
-              <td>45(7.5%)</td>
-              <td>181(30.2%)</td>
-              <td>226(37.7%)</td>
-              </tr>
-              <tr>
-              <td>2004</td>
-              <td>555</td>
-              <td>41(7.4%)</td>
-              <td>149(26.8%)</td>
-              <td>190(34.2%)</td>
-              </tr>
-              <tr>
-              <td>2006</td>
-              <td>900</td>
-              <td>40(4.4%)</td>
-              <td>153(17.0%)</td>
-              <td>193(21.4%)</td>
-              </tr>
-              <tr>
-              <td>2008</td>
-              <td>871</td>
-              <td>40(4.6%)</td>
-              <td>203(23.3%)</td>
-              <td>243(27.9%)</td>
-              </tr>
-              <tr>
-              <td>2010</td>
-              <td>1174</td>
-              <td>39(3.3%)</td>
-              <td>286(24.4%)</td>
-              <td>325(27.7%)</td>
-              </tr>
-              <tr>
-              <td>2012</td>
-              <td>1111</td>
-              <td>40(3.6%)</td>
-              <td>238(21.4%)</td>
-              <td>278(25.0%)</td>
-              </tr>
-              <tr>
-              <td>2014</td>
-              <td>1359</td>
-              <td>38(2.8%)</td>
-              <td>325(25.1%)</td>
-              <td>363(27.9%)</td>
-              </tr>
-              <tr>
-              <td>2016</td>
-              <td>1561</td>
-              <td>28(1.8%)+45(3.7%)</td>
-              <td>342(22.9%)</td>
-              <td>415(26.6%)</td>
-              </tr>
-              <tr>
-              <td>2018</td>
-              <td>2439</td>
-              <td>59(2.4%)</td>
-              <td>719(29.4%)</td>
-              <td>778(31.8%)</td>
-              </tr>
-              <tr>
-              <td>2020</td>
-              <td>5150</td>
-              <td>104(2%)+160(3%)</td>
-              <td>1096(21.3%)</td>
-              <td>1360(26%)</td>
-              </tr>
-              <tr>
-              <td>2022</td>
-              <!--<td>6773 submission/5726 reviewed</td>-->
-              <td>5803</td>
-              <td>158(2.7%)</td>
-              <td>1492(25.7%) </td>
-              <td>1650(28.4%) </td>
-              <!--<td>1629(24.05%/28.4%) </td>-->
-              </tr>
-              <tr>
-              <td>2024</td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              </tr>
-            </tbody>
-            </table>
+            <b>Generative Transformer for Accurate and Reliable Salient Object Detection</b><br>
+            Yuxin Mao, Jing Zhang, Zhexiong Wan, Yuchao Dai*, Aixuan Li, Yunqiu Lv, Xinyu Tian, <strong>Deng-Ping Fan</strong>, Nick Barnes<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Major</i>, 2022. (IF: 24.314)<br>
+            <a href="https://arxiv.org/abs/2104.10127">[PDF]</a>
+            <a href="https://github.com/fupiao1998/TrasformerSOD">[Code]</a>
+          </p>
+        </li>
+        <!--<li>
+          <p>
+            <b>Towards Deeper Understanding of Camouflaged Object Detection</b><br>
+            Yunqiu Lv, Jing Zhang, Yuchao Dai*, Aixuan Li, Nick Barnes, <strong>Deng-Ping Fan</strong><br>
+            <i>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), Major</i>, 2022. (IF: 5.859)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lv_Simultaneously_Localize_Segment_and_Rank_the_Camouflaged_Objects_CVPR_2021_paper.pdf" style="color:#2E41DC;"><u>CVPR 2021</u></a>]<br>
+            <a href="https://arxiv.org/pdf/2205.11333">[PDF]</a>
+            <a href="https://github.com/JingZhang617/COD-Rank-Localize-and-Segment">[Code]</a>
+          </p>
+        </li>-->
+        <li>
+          <p>
+            <b>Polyp-PVT: Polyp Segmentation with Pyramid Vision Transformers</b><br>
+            Bo Dong, Wenhai Wang, <strong>Deng-Ping Fan*</strong>, Jinpeng Li, Huazhu Fu, Ling Shao<br>
+            <i>Technique Report</i>, 2022<br>
+            <a href="https://arxiv.org/abs/2108.06932">[PDF]</a>
+            <a href="papers/[2022][SSI-Submission]PolypPVT_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/Polyp-PVT">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/DengPingFan/Polyp-PVT?style=social"/>-->
+            <a class="github-button" href="https://github.com/DengPingFan/Polyp-PVT" data-icon="octicon-star" data-show-count="true">Star</a>
           </p>
         </li>
         <li>
           <p>
-            <b>ICML (1980–) (CCF A类)  2月 h5: 135->171->204</b><br><br>
-            <table border="1" cellspacing="0" width="600">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>oral</th>
-            <th>poster</th>
-            <th>total</th>
-            </tr>
-            </thead>
-            <tbody>
-              <tr>
-              <td>1999</td>
-              <td>152</td>
-              <td> </td>
-              <td> </td>
-              <td>54(35.5%)</td>
-              </tr>
-              <tr>
-              <td>2000</td>
-              <td>349</td>
-              <td> </td>
-              <td> </td>
-              <td>151(43.3%)</td>
-              </tr>
-              <tr>
-              <td>2001</td>
-              <td>249</td>
-              <td> </td>
-              <td> </td>
-              <td>80(32.1%)</td>
-              </tr>
-              <tr>
-              <td>2002</td>
-              <td>261</td>
-              <td> </td>
-              <td> </td>
-              <td>86(33.0%)</td>
-              </tr>
-              <tr>
-              <td>2003</td>
-              <td>371</td>
-              <td> </td>
-              <td> </td>
-              <td>119(32.1%)</td>
-              </tr>
-              <tr>
-              <td>2004</td>
-              <td>368</td>
-              <td> </td>
-              <td> </td>
-              <td>118(32.1%)</td>
-              </tr>
-              <tr>
-              <td>2005</td>
-              <td>491</td>
-              <td> </td>
-              <td> </td>
-              <td>134(27.3%)</td>
-              </tr>
-              <tr>
-              <td>2006</td>
-              <td>700</td>
-              <td> </td>
-              <td> </td>
-              <td>140(20.0%)</td>
-              </tr>
-              <tr>
-              <td>2007</td>
-              <td>522</td>
-              <td> </td>
-              <td> </td>
-              <td>150(28.7%)</td>
-              </tr>
-              <tr>
-              <td>2008</td>
-              <td>583</td>
-              <td> </td>
-              <td> </td>
-              <td>155(26.6%)</td>
-              </tr>
-              <tr>
-              <td>2009</td>
-              <td>595</td>
-              <td> </td>
-              <td> </td>
-              <td>160(26.9%)</td>
-              </tr>
-              <tr>
-              <td>2010</td>
-              <td>594</td>
-              <td> </td>
-              <td> </td>
-              <td>152(25.6%)</td>
-              </tr>
-              <tr>
-              <td>2011</td>
-              <td>589</td>
-              <td> </td>
-              <td> </td>
-              <td>152(25.8%)</td>
-              </tr>
-              <tr>
-              <td>2012</td>
-              <td>890</td>
-              <td> </td>
-              <td> </td>
-              <td>242(27.2%)</td>
-              </tr>
-              <tr>
-              <td>2015</td>
-              <td>1037</td>
-              <td> </td>
-              <td> </td>
-              <td>270(26.0%)</td>
-              </tr>
-              <tr>
-              <td>2016</td>
-              <td>1342</td>
-              <td> </td>
-              <td> </td>
-              <td>322(24%)</td>
-              </tr>
-              <tr>
-              <td>2017</td>
-              <td>1676</td>
-              <td> </td>
-              <td> </td>
-              <td>434(25.9%)</td>
-              </tr>
-              <tr>
-              <td>2018</td>
-              <td>2473</td>
-              <td> </td>
-              <td> </td>
-              <td>621(25.1% )</td>
-              </tr>
-              <tr>
-              <td>2019</td>
-              <td>3424</td>
-              <td> </td>
-              <td> </td>
-              <td>774(22.6%)</td>
-              </tr>
-              <tr>
-              <td>2020</td>
-              <td>4990</td>
-              <td> </td>
-              <td> </td>
-              <td>1088(21.8%)</td>
-              </tr>
-              <tr>
-              <td>2021</td>
-              <td>5513</td>
-              <td>
-              <p>Outstanding-4 (0.07%)</p>
-              <p>Long-166 (3.0%) </p>
-              </td>
-              <td>1017 (18.46%) short</td>
-              <td>1184(21.4%)</td>
-              </tr>
-              <tr>
-              <td>2022</td>
-              <td>5630</td>
-              <td>Long-118 (2.09%)</td>
-              <td>Short-1117 (19.84%)</td>
-              <td>1235 (21.9%)</td>
-              </tr>
-              <tr>
-              <td>2023</td>
-              <td></td>
-              <td>Long-xx (xx%)</td>
-              <td>Short-xx (xx%)</td>
-              <td>xx (xx%)</td>
-              </tr>
-            </tbody>
-            </table>
+            <b>Boundary-aware segmentation network for mobile and web applications</b><br>
+            Xuebin Qin, <strong>Deng-Ping Fan*</strong>, Chenyang Huang, Cyril Diagne, Zichen Zhang, Adrià Cabeza Sant'Anna, Albert Suarez, Martin Jagersand, Ling Shao<br>
+            <i>Technique Report</i>, 2021<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.html" style="color:#2E41DC;"><u>CVPR 2019</u></a>]<br>
+            <a href="https://arxiv.org/abs/2101.04704">[PDF]</a>
+            <a href="https://cloud.tencent.com/developer/article/1688893">[中文解读]</a>
+            <a href="https://github.com/xuebinqin/BASNet">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/xuebinqin/BASNet?style=social"/>-->
+            <a class="github-button" href="https://github.com/xuebinqin/BASNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://www.youtube.com/watch?v=VxJmS8avjbY">[Tutorial (4k views)]</a>
+            <a href="https://weibo.com/tv/show/1034:4500977827381257?from=old_pc_videoshow">[Webo (1,070k views)]</a>
+            <a href="https://github.com/xuebinqin/BASNet">[Demo]</a>
+            <!--<img src="https://img.shields.io/github/stars/cyrildiagne/ar-cutpaste?style=social"/>-->
+            <a class="github-button" href="https://github.com/cyrildiagne/ar-cutpaste" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="videos/SOD-App-BASNetAR.mp4">[Video]</a>
+          </p>
+        </li>
+        <!--<li>
+          <p>
+            <b>Distraction-Aware Camouflaged Object Segmentation</b><br>
+            Haiyang Mei, Xin Yang*, Xiaopeng Wei, Ge-Peng Ji, <strong>Deng-Ping Fan</strong><br>
+            <i>arXiv</i>, 2022<br>
+          </p>
+        </li>-->
+      </ul>
+      
+      <!-- Book -->
+      <h2> 
+        <a id="Book" class="anchor" href="#Book">Book & Chapters</a> 
+      </h2>
+      <ul>
+       <li>
+         <b>范登平.</b> 认知规律启发的显著性物体检测方法与评测. 北京：机械工业出版社，2022 [PDF].<br>
+       </li>
+       <li>
+         Tao Zhou, <b>Deng-Ping Fan</b>, Gepeng Ji, Geng Chen, Huazhu Fu, Ling Shao, 2022. Inf-Net: an automatic lung infection segmentation network that uses CT images,
+         in: Ayman El-Baz, Jasjit S Suri, Artificial Intelligence Strategies for Analyzing COVID-19 Pneumonia Lung Imaging, University of Louisville, Louisville, KY, USA, pp: 3-1 to 3-15.<br>
+       </li>
+      </ul>
+      
+      <!-- Journal papers -->
+      <h2><a>Selected Journal Publications</a></h2>
+      <ul>
+        <br><a><strong>In the Year of 2023</strong></a><br>
+        <li>
+          <p>
+            <b>Salient Objects in Clutter</b><br>
+            <strong>Deng-Ping Fan</strong>, Jing Zhang, Gang Xu, Ming-Ming Cheng*, Ling Shao<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2023. (IF: 24.314)<br>
+            [Extension of <a href="https://link.springer.com/chapter/10.1007/978-3-030-01267-0_12" style="color:#2E41DC;"><u>ECCV 2018</u></a>]<br>
+            <a href="papers/[2022][TPAMI]SOC.pdf">[PDF]</a>
+            <a href="papers/[2022][TPAMI]SOC_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/SODBenchmark">[Project Page]</a>
+            <a href="https://github.com/DengPingFan/SOC-DataAug">[Code]</a>
+            <a href="https://ieeexplore.ieee.org/document/9755062">[Official Version]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>NeurIPS (1987–) (CCF A类)  5月 h5: 169->198->245</b><br><br>
-            <table border="1" cellspacing="0" width="300">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>oral+spotlight</th>
-            <th>poster</th>
-            <th>total</th>
-            </tr>
-            </thead>
-            <tbody>
-              <tr>
-              <td>2001</td>
-              <td>650</td>
-              <td> </td>
-              <td> </td>
-              <td>196(30.2%)</td>
-              </tr>
-              <tr>
-              <td>2002</td>
-              <td>710</td>
-              <td> </td>
-              <td> </td>
-              <td>221(31.1%)</td>
-              </tr>
-              <tr>
-              <td>2003</td>
-              <td>717</td>
-              <td> </td>
-              <td> </td>
-              <td>198(27.6%)</td>
-              </tr>
-              <tr>
-              <td>2004</td>
-              <td>690</td>
-              <td> </td>
-              <td> </td>
-              <td>207(30%)</td>
-              </tr>
-              <tr>
-              <td>2005</td>
-              <td>822</td>
-              <td> </td>
-              <td> </td>
-              <td>207(25.0%)</td>
-              </tr>
-              <tr>
-              <td>2006</td>
-              <td>833</td>
-              <td> </td>
-              <td> </td>
-              <td>204(24.0%)</td>
-              </tr>
-              <tr>
-              <td>2007</td>
-              <td>904</td>
-              <td> </td>
-              <td> </td>
-              <td>217(24.0%)</td>
-              </tr>
-              <tr>
-              <td>2008</td>
-              <td>1022</td>
-              <td> </td>
-              <td> </td>
-              <td>250(24.5%)</td>
-              </tr>
-              <tr>
-              <td>2009</td>
-              <td>1105</td>
-              <td> </td>
-              <td> </td>
-              <td>263(23.8%)</td>
-              </tr>
-              <tr>
-              <td>2010</td>
-              <td>1219</td>
-              <td> </td>
-              <td> </td>
-              <td>293(24.0%)</td>
-              </tr>
-              <tr>
-              <td>2011</td>
-              <td>1400</td>
-              <td> </td>
-              <td> </td>
-              <td>308(22.0%)</td>
-              </tr>
-              <tr>
-              <td>2012</td>
-              <td>1467</td>
-              <td> </td>
-              <td> </td>
-              <td>370(25.2%)</td>
-              </tr>
-              <tr>
-              <td>2013</td>
-              <td>1420</td>
-              <td> </td>
-              <td> </td>
-              <td>359(25.3%)</td>
-              </tr>
-              <tr>
-              <td>2014</td>
-              <td> 1678</td>
-              <td> </td>
-              <td> </td>
-              <td>414(24.7%)</td>
-              </tr>
-              <tr>
-              <td>2015</td>
-              <td> 1838</td>
-              <td> </td>
-              <td> </td>
-              <td>403(21.0%)</td>
-              </tr>
-              <tr>
-              <td>2016</td>
-              <td> 2515</td>
-              <td> </td>
-              <td> </td>
-              <td>571(22.7%)</td>
-              </tr>
-              <tr>
-              <td>2017</td>
-              <td> 3240</td>
-              <td>40(1.2%)+112(3.5%)</td>
-              <td>526(16.2%)</td>
-              <td>678(20.9%)</td>
-              </tr>
-              <tr>
-              <td>2018</td>
-              <td> 4856</td>
-              <td>30(0.6%)+168(3.5%)</td>
-              <td>813(16.7%)</td>
-              <td>1011(20.8%)</td>
-              </tr>
-              <tr>
-              <td>2019</td>
-              <td> 6743</td>
-              <td>36(0.5%)+164(2.4%)</td>
-              <td>1228(18.2%)</td>
-              <td>1428(21.1%)</td>
-              </tr>
-              <tr>
-              <td>2020</td>
-              <td> 9454</td>
-              <td>105(1.1%)+280(2.96%)</td>
-              <td>1515(16.0%)</td>
-              <td>1900(20.1%)</td>
-              </tr>
-              <tr>
-              <td>2021</td>
-              <td> 9122</td>
-              <td>56(0.6%)+282(3.1%)</td>
-              <td>1996(21.9%)</td>
-              <td>2334(25.5%)</td>
-              </tr>
-              <tr>
-              <td>2022</td>
-              <td>10,411</td>
-              <td>15-Outstanding(0.14%) + 199 Oral-Equivalent(1.9%)</td>
-              <td>2466(23.7%) </td>
-              <td>2665(25.6%)</td>
-              </tr>
-              <tr>
-              <td>2023</td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              </tr>
-            </tbody>
-            </table>
+            <b>Salient Object Detection via Integrity Learning</b><br>
+            Mingchen Zhuge^, <strong>Deng-Ping Fan^</strong>, Nian Liu*, Dingwen Zhang*, Dong Xu, Ling Shao<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2023. (IF: 24.314)<br>
+            <a href="https://arxiv.org/abs/2101.07663">[PDF]</a>
+            <a href="papers/[2022][TPAMI]ICON_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/mczhuge/ICON">[Code]</a>
+            <a class="github-button" href="https://github.com/mczhuge/ICON" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://ieeexplore.ieee.org/document/9789317">[Official Version]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>AAAI (1980–) (CCF A类)  8-9月 h5: 95->126->157</b><br><br>
-            <table border="1" cellspacing="0" width="350">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>Accepted</th>
-            <th>total</th>
-            </tr>
-            </thead>
-            <tbody>
-              <tr>
-              <td>2023</td>
-              <td>
-              <p>8777-submission</p>
-              <p>xxxx-reviewed</p>
-              <p>x-Distinguished Papers</p>
-              </td>
-              <td>1721</td>
-              <td>19.6%</td>
-              </tr>
-              <tr>
-              <td>2022</td>
-              <td>
-              <p>9251-submission</p>
-              <p>9020-reviewed</p>
-              <p>6-Distinguished Papers</p>
-              </td>
-              <td>1349</td>
-              <td>14.96%</td>
-              </tr>
-              <tr>
-              <td>2021</td>
-              <td>
-              <p>9034-submission</p>
-              <p>7911-reviewed</p>
-              <p>4250-Phase II</p>
-              </td>
-              <td>1692</td>
-              <td>21.0%</td>
-              </tr>
-              <tr>
-              <td>2020</td>
-              <td>8800</td>
-              <td>1591</td>
-              <td>20.6%</td>
-              </tr>
-              <tr>
-              <td>2019</td>
-              <td>7700</td>
-              <td>1150</td>
-              <td>16.2%</td>
-              </tr>
-              <tr>
-              <td>2018</td>
-              <td>3808</td>
-              <td>983</td>
-              <td>24.6%</td>
-              </tr>
-              <tr>
-              <td>2017</td>
-              <td>2590</td>
-              <td>638</td>
-              <td>24.6%</td>
-              </tr>
-              <tr>
-              <td>2016</td>
-              <td>2132</td>
-              <td>549</td>
-              <td>25.8%</td>
-              </tr>
-              <tr>
-              <td>2015</td>
-              <td>1991</td>
-              <td>531</td>
-              <td>26.7%</td>
-              </tr>
-              <tr>
-              <td>2014</td>
-              <td>1406</td>
-              <td>398</td>
-              <td>28.0%</td>
-              </tr>
-              <tr>
-              <td>2013</td>
-              <td>934?</td>
-              <td>271?</td>
-              <td>29.0%</td>
-              </tr>
-              <tr>
-              <td>2012</td>
-              <td>1129</td>
-              <td>294</td>
-              <td>26.0%</td>
-              </tr>
-              <tr>
-              <td>2011</td>
-              <td>975</td>
-              <td>242</td>
-              <td>24.8%</td>
-              </tr>
-              <tr>
-              <td>2010</td>
-              <td>982</td>
-              <td>264</td>
-              <td>26.9%</td>
-              </tr>
-              <tr>
-              <td>2008</td>
-              <td>937</td>
-              <td>227</td>
-              <td>24.2%</td>
-              </tr>
-              <tr>
-              <td>2007</td>
-              <td>923</td>
-              <td>251</td>
-              <td>27.0%</td>
-              </tr>
-              <tr>
-              <td>2006</td>
-              <td>776</td>
-              <td>236</td>
-              <td>30.0%</td>
-              </tr>
-              <tr>
-              <td>2005</td>
-              <td>803</td>
-              <td>225</td>
-              <td>28.5%</td>
-              </tr>
-              <tr>
-              <td>2004</td>
-              <td>453</td>
-              <td>121</td>
-              <td>26.7%</td>
-              </tr>
-              <tr>
-              <td>2002</td>
-              <td>469</td>
-              <td>121</td>
-              <td>25.8%</td>
-              </tr>
-              <tr>
-              <td>2000</td>
-              <td>431</td>
-              <td>143</td>
-              <td>33.2%</td>
-              </tr>
-              <tr>
-              <td>1999</td>
-              <td>400</td>
-              <td>109</td>
-              <td>27.3%</td>
-              </tr>
-              <tr>
-              <td>1998</td>
-              <td>475</td>
-              <td>144</td>
-              <td>30.3%</td>
-              </tr>
-              <tr>
-              <td>1997</td>
-              <td>323</td>
-              <td>117</td>
-              <td>36.0%</td>
-              </tr>
-              <tr>
-              <td>1996</td>
-              <td>643</td>
-              <td>197</td>
-              <td>30.0%</td>
-              </tr>
-              <tr>
-              <td>1994</td>
-              <td>780</td>
-              <td>222</td>
-              <td>28.0%</td>
-              </tr>
-              <tr>
-              <td>1993</td>
-              <td>524</td>
-              <td>126</td>
-              <td>24.0%</td>
-              </tr>
-              <tr>
-              <td>1992</td>
-              <td>636</td>
-              <td>133</td>
-              <td>21.0%</td>
-              </tr>
-              <tr>
-              <td>1991</td>
-              <td>603</td>
-              <td>142</td>
-              <td>24.0%</td>
-              </tr>
-              <tr>
-              <td>1990</td>
-              <td>892</td>
-              <td>161</td>
-              <td>18.0%</td>
-              </tr>
-              <tr>
-              <td>1988</td>
-              <td>850</td>
-              <td>148</td>
-              <td>17.0%</td>
-              </tr>
-              <tr>
-              <td>1987</td>
-              <td>715</td>
-              <td>149</td>
-              <td>21.0%</td>
-              </tr>
-              <tr>
-              <td>1986</td>
-              <td>817</td>
-              <td>187</td>
-              <td>23.0%</td>
-              </tr>
-            </tbody>
-            </table>
+            <b>Full-Duplex Strategy for Video Object Segmentation</b><br>
+            Ge-Peng Ji, <strong>Deng-Ping Fan*</strong>, Keren Fu, Zhe Wu, Jianbing Shen, Ling Shao<br>
+            <i>Computational Visual Media (CVMJ)</i>, 2023, 9 (1): 155–175 (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ji_Full-Duplex_Strategy_for_Video_Object_Segmentation_ICCV_2021_paper.html" style="color:#2E41DC;"><u>ICCV 2021</u></a>]<br>
+            <a href="https://arxiv.org/abs/2108.03151">[PDF]</a>
+            <a href="https://dengpingfan.github.io/papers/[2021][ICCV]VSOD_FSNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/GewelsJI/FSNet">[Code]</a>
+            <a class="github-button" href="https://github.com/GewelsJI/FSNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/article/10.1007/s41095-021-0262-4">[Official Version]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>IJCAI (1969–) (CCF A类)  2月 h5: h5: 67->95->105</b><br><br>
-            <table border="1" cellspacing="0" width="350">
-            <thead>
-            <tr>
-            <th>year</th>
-            <th>submitted</th>
-            <th>accepted</th>
-            <th>total</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-            <td>2023</td>
-            <td>
-            <p>xxx-abstract</p>
-            <p>xxx-full paper</p>
-            <p>xxx-desk rejected</p>
-            <p>xxx-summary rejected</p>
-            <p>xxx-Phase II</p>
-            </td>
-            <td>xxx</td>
-            <td>xxx%</td>
-            </tr>
-            <tr>
-            <td>2022</td>
-            <td>
-            <p>4535-full paper</p>
-            <p>3064-Phase II</p>
-            </td>
-            <td>681 (171-Long/510-Short)</td>
-            <td>15%</td>
-            </tr>
-            <tr>
-            <td>2021</td>
-            <td>
-            <p>5534-abstract</p>
-            <p>4204-full paper</p>
-            <p>144-desk rejected</p>
-            <p>1002-summary rejected</p>
-            <p>3033-Phase II</p>
-            </td>
-            <td>587</td>
-            <td>13.9%</td>
-            </tr>
-            <tr>
-            <td>2020</td>
-            <td>4717</td>
-            <td>592</td>
-            <td>12.60%</td>
-            </tr>
-            <tr>
-            <td>2019</td>
-            <td>4752</td>
-            <td>850</td>
-            <td>17.88%</td>
-            </tr>
-            <tr>
-            <td>2018</td>
-            <td>3470</td>
-            <td>710</td>
-            <td>20.5%</td>
-            </tr>
-            <tr>
-            <td>2016</td>
-            <td>2294</td>
-            <td>551</td>
-            <td>24.0%</td>
-            </tr>
-            <tr>
-            <td>2015</td>
-            <td>1996</td>
-            <td>572</td>
-            <td>28.7%</td>
-            </tr>
-            <tr>
-            <td>2013</td>
-            <td>1473</td>
-            <td>413</td>
-            <td>28.0%</td>
-            </tr>
-            <tr>
-            <td>2011</td>
-            <td>1325</td>
-            <td>400</td>
-            <td>30.2%</td>
-            </tr>
-            <tr>
-            <td>2009</td>
-            <td>1290</td>
-            <td>331</td>
-            <td>25.7%</td>
-            </tr>
-            <tr>
-            <td>2007</td>
-            <td>1353</td>
-            <td>212</td>
-            <td>15.7%</td>
-            </tr>
-            <tr>
-            <td>2005</td>
-            <td>1329</td>
-            <td>240</td>
-            <td>18.1%</td>
-            </tr>
-            <tr>
-            <td>2003</td>
-            <td>913</td>
-            <td>189</td>
-            <td>20.7%</td>
-            </tr>
-            <tr>
-            <td>2001</td>
-            <td>796</td>
-            <td>197</td>
-            <td>24.7%</td>
-            </tr>
-            <tr>
-            <td>1999</td>
-            <td>750</td>
-            <td>194</td>
-            <td>25.9%</td>
-            </tr>
-            <tr>
-            <td>1997</td>
-            <td>882</td>
-            <td>216</td>
-            <td>24.5%</td>
-            </tr>
-            <tr>
-            <td>1995</td>
-            <td>1112</td>
-            <td>249</td>
-            <td>22.4%</td>
-            </tr>
-            </tbody>
-            </table>
+            <b>Specificity-preserving RGB-D Saliency Detection</b><br>
+            Tao Zhou, <strong>Deng-Ping Fan*</strong>, Geng Chen, Yi Zhou, Huazhu Fu<br>
+            <i>Computational Visual Media (CVMJ)</i>, 2023. (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Specificity-Preserving_RGB-D_Saliency_Detection_ICCV_2021_paper.html" style="color:#2E41DC;"><u>ICCV 2021</u></a>]<br>
+            <a href="papers/[2022][CVMJ]SPNet.pdf">[PDF]</a>
+            <a href="papers/[2022][CVMJ]SPNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/taozh2017/SPNet">[Code]</a>
+            <a class="github-button" href="https://github.com/taozh2017/SPNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <!--<a href="">[Official Version]</a>-->
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Sequential Interactive Image Segmentation</b><br>
+            Zheng Lin, Zhao Zhang, Zi-Yue Zhu, <strong>Deng-Ping Fan*</strong>, Xia-Lei Liu<br>
+            <i>Computational Visual Media (CVMJ)</i>, 2023. (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            <a href="papers/[2022][CVMJ]SIIS.pdf">[PDF]</a>            
+            <a href="papers/[2022][CVMJ]SIIS_Chinese.pdf">[中译版]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Deep Gradient Learning for Efficient Camouflaged Object Detection</b><br>
+            Ge-Peng Ji, <strong>Deng-Ping Fan*</strong>, Yu-Cheng Chou, Dengxin Dai, Alexander Liniger, Luc Van Gool<br>
+            <i>Machine Intelligence Research (MIR)</i>, 2023. (中国卓越期刊)<br>
+            <a href="https://arxiv.org/pdf/2205.12853v2.pdf">[PDF]</a>
+            <a href="papers/[2022][MIR]DGNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/GewelsJI/DGNet">[Code]</a>
+            <a class="github-button" href="https://github.com/GewelsJI/DGNet" data-icon="octicon-star" data-show-count="true">Star</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Masked Vision-Language Transformer in Fashion</b><br>
+            Ge-Peng Ji, Mingcheng Zhuge, Dehong Gao, <strong>Deng-Ping Fan*</strong>, Christos Sakaridis, Luc Van Gool<br>
+            <i>Machine Intelligence Research (MIR)</i>, 2023. (中国卓越期刊)<br>
+            <a href="https://arxiv.org/abs/2210.15110">[PDF]</a>
+            <a href="papers/[2022][MIR]MVLT_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/GewelsJI/MVLT">[Code]</a>
+            <!--<a href="">[Official Version]</a>-->
+          </p>
+        </li>
+        <br><a><strong>In the Year of 2022</strong></a><br>
+        <li>
+          <p>
+            <b>Concealed Object Detection</b><br>
+            <strong>Deng-Ping Fan</strong>, Ge-Peng Ji, Ming-Ming Cheng*, Ling Shao<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2022, 44 (10): 6024-6042. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html" style="color:#2E41DC;"><u>CVPR 2020</u></a> | <strong><font color="red"><a href="papers/SINet-V2-Award.pdf"><u>JDC 2021</u></a> Distinguish Paper</font></strong>]<br>
+            <a href="https://arxiv.org/abs/2102.10274">[PDF]</a>
+            <a href="papers/[2021][PAMI]SINetV2_Chinese.pdf">[中译版]</a>
+            <a href="https://dengpingfan.github.io/pages/COD.html">[Project Page]</a>
+            <a href="http://mmcheng.net/cod/">[Online Demo]</a> 
+            <a href="papers/[2022][TPAMI]ConcealedOD_supp.pdf">[Supplementary Material]</a>
+            <a href="https://github.com/GewelsJI/SINet-V2">[Code-Python]</a>
+            <!--<img src="https://img.shields.io/github/stars/GewelsJI/SINet-V2?style=social"/>-->         
+            <a class="github-button" href="https://github.com/GewelsJI/SINet-V2" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://cg.cs.tsinghua.edu.cn/jittor/news/2021-06-11-00-00-cod/">[Code-Jittor]</a>
+            <a href="https://pan.baidu.com/s/1EtH2tUdbBt16w5dgve7JhQ">[2.25G COD10K_All (Baidu: w3up)]</a>
+            <a href="https://drive.google.com/file/d/1vRYAie0JcNStcSwagmCq55eirGyMYGm5/view?usp=sharing">[2.25G COD10K_All (Google)]</a>
+            <a href="">[微信群 (WeChat: CVer222)]</a>
+            <a href="https://ieeexplore.ieee.org/document/9444794">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Re-thinking co-salient object detection</b><br>
+            <strong>Deng-Ping Fan</strong>, Tengpeng Li, Zheng Lin, Ge-Peng Ji, Dingwen Zhang, Ming-Ming Cheng*, Huazhu Fu, Jianbing Shen<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2022, 44 (8): 4339-4354. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Taking_a_Deeper_Look_at_Co-Salient_Object_Detection_CVPR_2020_paper.html" style="color:#2E41DC;"><u>CVPR 2020</u></a>]<br>
+            <a href="https://arxiv.org/abs/2007.03380v4">[PDF]</a>
+            <a href="papers/[2021][TPAMI]CoSOD3k_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/CoEGNet?utm_source=catalyzex.com">[Code]</a>
+            <a href="https://ieeexplore.ieee.org/document/9358006">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Siamese Network for RGB-D Salient Object Detection and Beyond</b><br>
+            Keren Fu, <strong>Deng-Ping Fan*</strong>, Ge-Peng Ji, Qijun Zhao, Jianbing Shen, Ce Zhu<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2022, 44 (9): 5541-5559. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fu_JL-DCF_Joint_Learning_and_Densely-Cooperative_Fusion_Framework_for_RGB-D_Salient_CVPR_2020_paper.html" style="color:#2E41DC;"><u>CVPR 2020</u>]</a><br>
+            <a href="https://arxiv.org/abs/2008.12134">[PDF]</a>
+            <a href="papers/[2021][TPAMI]JLDCF_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/kerenfu/JLDCF">[Code]</a>
+            <a class="github-button" href="https://github.com/kerenfu/JLDCF" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://ieeexplore.ieee.org/document/9406382">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Uncertainty Inspired RGB-D Saliency Detection</b><br>
+            Jing Zhang, <strong>Deng-Ping Fan*</strong>, Yuchao Dai, Saeed Anwar, Fatemeh Sadat Saleh, Sadegh Aliakbarian, Nick Barnes<br>
+            <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</i>, 2022, 44 (9): 5761-5779. (IF: 24.314)<br>
+            [Extension of <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_UC-Net_Uncertainty_Inspired_RGB-D_Saliency_Detection_via_Conditional_Variational_Autoencoders_CVPR_2020_paper.html" style="color:#2E41DC;"><u>CVPR 2020</u></a>]<br>
+            <a href="https://arxiv.org/abs/2009.03075">[PDF]</a>
+            <a href="https://github.com/JingZhang617/UCNet?utm_source=catalyzex.com">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/JingZhang617/UCNet?style=social"/>-->
+            <a class="github-button" href="https://github.com/JingZhang617/UCNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://ieeexplore.ieee.org/document/9405467">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Semantic Edge Detection with Diverse Deep Supervision</b><br>
+            Yun Liu, Ming-Ming Cheng*, <strong>Deng-Ping Fan</strong>, Le Zhang, Jia-Wang Bian, and Dacheng Tao<br>
+            <i>International Journal of Computer Vision (IJCV)</i>, 2022, 130: 179-198. (IF: 13.369)<br>
+            <a href="https://arxiv.org/abs/1804.02864">[PDF]</a>
+            <a href="papers/[2021][IJCV]SEdge_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/yun-liu/DDS">[Code]</a>
+            <a href="https://link.springer.com/article/10.1007/s11263-021-01539-8">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Facial-Sketch Synthesis: A New Challenge</b><br>
+            <strong>Deng-Ping Fan</strong>, Ziling Huang, Peng Zheng, Hong Liu*, Xuebin Qin*, Luc Van Gool<br>
+            <i>Machine Intelligence Research (MIR)</i>, 2022, 19 (4): 257-287. (中国卓越期刊)<br>
+            <a href="https://arxiv.org/abs/2112.15439">[PDF]</a> 
+            <a href="papers/[2022][MIR]FS2K_Chinese.pdf">[中译版]</a>
+            <a href="https://youtu.be/COhUly9REQc">[Video]</a>
+            <a href="https://pan.baidu.com/s/1rmE8iJeurizlAzKmOAMakg">[MIR报告PPT (百度盘提取码eoa3)]</a>
+            <a href="https://www.bilibili.com/video/BV1jP411V7bx/">[视频解读]</a>
+            <a href="https://github.com/DengPingFan/FSGAN">[Code]</a>
+            <a class="github-button" href="https://github.com/DengPingFan/FSGAN" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://github.com/DengPingFan/FS2KToolbox">[Evaluation Tool]</a>
+            <a href="https://github.com/DengPingFan/FS2K">[FS2K dataset]</a>
+            <a href="https://github.com/DengPingFan/FaceSketch-Awesome-List">[Awesome List]</a>
+            <a href="https://www.mi-research.net/en/article/doi/10.1007/s11633-022-1349-9">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Video Polyp Segmentation: A Deep Learning Perspective</b><br>
+            Ge-Peng Ji, Guobao Xiao, Yu-Cheng Chou, <strong>Deng-Ping Fan*</strong>, Kai Zhao, Geng Chen, and Luc Van Gool<br>
+            <i>Machine Intelligence Research (MIR)</i>, 2022, 19 (6): 531-549. (中国卓越期刊)<br>
+            <a href="https://arxiv.org/pdf/2203.14291v3.pdf">[PDF]</a>
+            <a href="papers/[2022][MIR]VPS_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/GewelsJI/VPS">[Code]</a>
+            <a class="github-button" href="https://github.com/GewelsJI/VPS" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/article/10.1007/s11633-022-1371-y">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Light Field Salient Object Detection: A Review and Benchmark</b><br>
+            Keren Fu, Yao Jiang, Ge-Peng Ji, Tao Zhou*, Qijun Zhao, <strong>Deng-Ping Fan</strong><br>
+            <i>Computational Visual Media (CVMJ)</i>, 2022, 8 (4): 509–534. (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            <a href="https://arxiv.org/abs/2010.04968">[PDF]</a>
+            <a href="http://www.kerenfu.top/sources/2021cvmlfsurvey-cn.pdf">[中译版]</a>
+            <a href="https://github.com/kerenfu/LFSOD-Survey">[Code]</a>
+            <a class="github-button" href="https://github.com/kerenfu/LFSOD-Survey" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/article/10.1007/s41095-021-0256-2">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>PVT v2: Improved baselines with Pyramid Vision Transformer</b><br>
+            Wenhai Wang*, Enze Xie, Xiang Li, <strong>Deng-Ping Fan</strong>, Kaitao Song, Ding Liang, Tong Lu, Ping Luo, Ling Shao<br>
+            <i>Computational Visual Media (CVMJ)</i>, 2022, 8 (3): 415-424. (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            <a href="https://arxiv.org/abs/2106.13797">[PDF]</a>
+            <!--<a href="">[中译版]</a>-->
+            <a href="https://github.com/whai362/PVT">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/whai362/PVT?style=social"/>-->
+            <a class="github-button" href="https://github.com/whai362/PVT" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/article/10.1007/s41095-022-0274-8">[Official Version]</a>
+          </p>
+        </li>
+        <br><a><strong>In the Year of 2021</strong></a><br>
+        <li>
+          <p>
+            <b>Structure-measure: A new way to evaluate foreground maps</b><br>
+            Ming-Ming Cheng*, <strong>Deng-Ping Fan</strong><br>
+            <i>International Journal of Computer Vision (IJCV)</i>, 2021, 129 (9): 2622-2638. (IF: 13.369)<br>
+            [Extension of <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Fan_Structure-Measure_A_New_ICCV_2017_paper.html" style="color:#2E41DC;"><u>ICCV 2017</u></a>]<br>
+            <a href="papers/[2022][IJCV]Structure-Measure A New WaytoEvaluateForegroundMaps.pdf">[PDF]</a>
+            <a href="papers/[2021][IJCV]Smeasure_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/S-measure">[Code]</a>
+            <a href="https://drive.google.com/file/d/10c_PU4pa-7KJ-c2puLfTRE0ZBWgPBwiS/view?usp=sharing">[Meta-measure]</a>
+            <a href="https://link.springer.com/article/10.1007/s11263-021-01490-8">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>认知规律启发的物体分割评价标准及损失函数</b><br>
+            <b>Cognitive Vision Inspired Object Segmentation Metric and Loss Function</b><br>
+            <strong>范登平</strong>， 季葛鹏， 秦雪彬， 程明明*<br>
+            <strong>Deng-Ping Fan</strong>, Ge-Peng Ji, Xuebin Qin, Ming-Ming Cheng*<br>
+            <i>中国科学：信息科学</i>, 2021, 51 (9): 1475-1489. (IF: 7.275, CCF A类, CCF T1)<br>
+            <i>SCIENTIA SINICA Informationis (SSI)</i>, 2021<br>
+            [Extension of <a href="https://www.ijcai.org/proceedings/2018/97" style="color:#2E41DC;"><u>IJCAI 2018</u></a>]<br>
+            <a href="papers/[2021][SSI]EmeasureEng.pdf">[PDF]</a>
+            <a href="https://github.com/GewelsJI/Hybrid-Eloss/">[Code]</a>
+            <a href="https://www.sciengine.com/publisher/scp/journal/SSI/51/9/10.1360/SSI-2020-0370?slug=fulltext">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Rethinking RGB-D Salient Object Detection: Models, Data Sets, and Large-Scale Benchmarks</b><br>
+            <strong>Deng-Ping Fan</strong>, Zheng Lin, Zhao Zhang, Menglong Zhu, Ming-Ming Cheng*<br>
+            <i>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</i>, 2021, 32 (5): 2075-2089. (IF: 14.255)<br>
+            [<strong><font color="red">ESI Hot Paper (0.1%)</font></strong> | <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_hcore&venue=LILlZnFGZh8J.2022&cstart=20" style="color:#2E41DC;"> <u>Top-5 Most Cited Paper in IEEE TNNLS2020</u></a>]<br>
+            <a href="https://arxiv.org/abs/1907.06781">[PDF]</a>
+            <a href="papers/[2021][TNNLS]SIPBenchmark_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/D3NetBenchmark">[Project Page]</a>
+            <a href="https://pan.baidu.com/s/1wMTDG8yhCNbioPwzq7t25w">[SIP1K (Baidu: 46w8)]</a>
+            <a href="https://drive.google.com/file/d/1R91EEHzI1JwfqvQJLmyciAIWU-N8VR4A/view">[SIP1K (Google)]</a>
+            <!--<img src="https://img.shields.io/github/stars/DengPingFan/D3NetBenchmark?style=social"/>-->
+            <a class="github-button" href="https://github.com/DengPingFan/D3NetBenchmark" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9107477">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>RGB-D Salient Object Detection: A Survey</b><br>
+            Tao Zhou, <strong>Deng-Ping Fan*</strong>, Ming-Ming Cheng, Jianbing Shen, Ling Shao<br>
+            <i>Computational Visual Media (CVMJ)</i>, 2021, 7 (1): 37-69. (IF: 4.127, 中国卓越期刊, CCF T2, Accept rate ~=12.5%)<br>
+            [<strong><font color="red">ESI Highly Cited Paper (1%)</font></strong> | <a href="https://link.springer.com/content/pdf/10.1007/s41095-021-0261-5.pdf">Spotlight Paper</a> | <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_hcore&venue=w7EibwBrdVAJ.2022" style="color:#2E41DC;"> <u>Top-2 Most Cited Paper within 5 Years in CVMJ2021</u></a>]<br>
+            <a href="https://arxiv.org/abs/2008.00230">[PDF]</a>
+            <a href="papers/[2021][CVMJ]RGBD_Survey_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/taozh2017/RGBD-SODsurvey">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/taozh2017/RGBD-SODsurvey?style=social"/>-->
+            <a class="github-button" href="https://github.com/taozh2017/RGBD-SODsurvey" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/article/10.1007/s41095-020-0199-z">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>JCS: An Explainable COVID-19 Diagnosis System by Joint Classification and Segmentation</b><br>
+            Yu-Huan Wu, Shang-Hua Gao, Jie Mei, Jun Xu, <strong>Deng-Ping Fan</strong>, Rong-Guo Zhang, Ming-Ming Cheng*<br>
+            <i>IEEE Transactions on Image Processing (TIP)</i>, 2021, 30: 3113-3126. (IF: 11.041)<br>
+            [<strong><font color="red">ESI Hot Paper (0.1%)</font></strong>]<br>
+            <a href="https://arxiv.org/abs/2004.07054">[PDF]</a>
+            <a href="papers/[2021][TIP]JCS_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/yuhuan-wu/JCS">[Code]</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9357961">[Official Version]</a>
+          </p>
+        </li>
+        <!--<li>
+          <p>
+            <b>COVID-19 Lung Infection Segmentation with A Novel Two-Stage Cross-Domain Transfer Learning Framework</b><br>
+            Jiannan Liu, Bo Dong, Shuai Wang, Hui Cui, <strong>Deng-Ping Fan</strong>, Jiquan Ma*, Geng Chen*<br>
+            <i>Medical Image Analysis (MIA)</i>, 2021, 74: 102205. (IF: 8.545)<br>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8342869/">[PDF]</a>
+            <a href="https://github.com/Jiannan-Liu/nCoVSegNet">[Code]</a>
+            <a href="https://www.sciencedirect.com/science/article/pii/S1361841521002504?casa_token=4dIB3WQF8osAAAAA:WqK99Z08kXXrqrrX6DXK_6eWH_uX944wn_QaommMaJ45HItdj8Nc5EMS_DOUvjMTio476WmnLMI">[Official Version]</a>
+          </p>
+        </li>-->
+        <br><a><strong>In the Year of 2020</strong></a><br>
+        <li>
+          <p>
+            <b>Inf-Net: Automatic Covid-19 Lung Infection Segmentation from CT Images</b><br>
+            <strong>Deng-Ping Fan</strong>, Tao Zhou, Ge-Peng Ji, Yi Zhou, Geng Chen*, Huazhu Fu*, Jianbing Shen*, Ling Shao<br>
+            <i>IEEE Transactions on Medical Imaging (TMI)</i>, 2020, 39 (8): 2626-2637. (IF: 11.037)<br>
+            [<strong><font color="red">ESI Highly Cited Paper (1%)</font></strong> | 
+            <a href="https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=42" style="color:#2E41DC;"> <u>TMI 50 most frequently accessed articles</u></a> | 
+            <a href="https://scholar.google.com/citations?hl=en&view_op=list_hcore&venue=wqLkMlos2DIJ.2022" style="color:#2E41DC;"> <u>Top-20 Most Cited Paper within 5 Years in IEEE TMI2020</u></a> |
+            Extension of <a href="https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26" style="color:#2E41DC;"><u>MICCAI 2020</u></a>]<br>
+            <a href="https://arxiv.org/abs/2004.14133">[PDF]</a>
+            <a href="papers/[2020][TMI]InfNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/Inf-Net?utm_source=catalyzex.com">[Code]</a>
+            <a class="github-button" href="https://github.com/DengPingFan/Inf-Net" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://ieeexplore.ieee.org/document/9098956">[Official Version]</a>
+          </p>
+        </li>
+        <br><a><strong>In the Year of 2019</strong></a><br>
+        <li>
+          <p>
+            <b>认知规律启发的显著性物体检测方法与评测</b><br>
+            <b>Cognitive Inspirited Salient Object Detection Models and Benchmarks</b><br>
+            <strong>范登平</strong><br>
+            <strong>Deng-Ping Fan</strong><br>
+            <i>南开大学博士学位论文</i>, 2019. (2021年<strong><a href="https://mp.weixin.qq.com/s/G0bsizT8ZPa0oXuSlXRTPQ">CCF优秀博士学位论文奖</a></strong>)<br>
+            <i>Ph.D. thesis, Nankai University</i>, 2019 (<strong><a href="https://mp.weixin.qq.com/s/G0bsizT8ZPa0oXuSlXRTPQ">China Computer Federation (CCF) Outstanding Doctoral Dissertation Award</a></strong>)<br>
+            <a href="papers/[2019][Nankai University][PhD Thesis][Deng-Ping Fan]Cognitive Inspirited Salient Object Detection Models and Benchmarks-min.pdf">[PDF]</a>
+            <a href="">[PPT]</a>
+          </p>
+        </li>
+      </ul>
+      
+      <!-- conference papers -->
+      <h2><a>Selected Conference Publications</a></h2>
+      <ul>
+        <br><a><strong>In the Year of 2023</strong></a><br>
+        <li>
+        </li>
+        <br><a><strong>In the Year of 2022</strong></a><br>
+        <li>
+          <p>
+            <b>Highly Accurate Dichotomous Image Segmentation</b><br>
+            Xuebin Qin, Hang Dai, Xiaobin Hu, <strong>Deng-Ping Fan*</strong>, Ling Shao, Luc Van Gool<br>
+            <i>European Conference on Computer Vision (ECCV)</i>, Tel Aviv, Israel, October 23-27, 2022<br>
+            <a href="https://arxiv.org/pdf/2203.03041.pdf">[PDF]</a>
+            <a href="papers/[2022][ECCV]DIS_Chinese.pdf">[中译版]</a>
+            <a href="https://xuebinqin.github.io/dis/index.html">[Project Page]</a>
+            <a href="https://github.com/xuebinqin/DIS">[Code]</a>
+            <a class="github-button" href="https://github.com/xuebinqin/DIS" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://replicate.com/arielreplicate/dichotomous_image_segmentation">[Online Demo]</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-19797-0_3">[Official Version]</a>
+          </p>
+        </li>  
+        <li>
+          <p>
+            <b>OSFormer: One-Stage Camouflaged Instance Segmentation with Transformers</b><br>
+            Jialun Pei, Tianyang Cheng, <strong>Deng-Ping Fan*</strong>, He Tang, Chuanbo Chen, Luc Van Gool<br>
+            <i>European Conference on Computer Vision (ECCV)</i>, Tel Aviv, Israel, October 23-27, 2022<br>
+            <a href="papers/[2022][ECCV]OSFormer.pdf">[PDF]</a>
+            <a href="papers/[2022][ECCV]OSFormer_Chinese.pdf">[中译版]</a>
+            <a href="https://apposcmf8kb5033.pc.xiaoe-tech.com/live_pc/l_631055f0e4b0eca59c2ab21d">[视频解读]</a>
+            <a href="https://blog.patrickcty.cc/OSFormer-Homepage/">[Project Page]</a>
+            <a href="https://github.com/PJLallen/OSFormer">[Code]</a>
+            <a class="github-button" href="https://github.com/PJLallen/OSFormer" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-19797-0_2">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Implicit Motion Handling for Video Camouflaged Object Detection</b><br>
+            Xuelian Cheng, Huan Xiong, <strong>Deng-Ping Fan*</strong>, Yiran Zhong, Mehrtash Harandi, Tom Drummond, Zongyuan Ge<br> 
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, New Orleans, USA, June 19-24, 2022<br>
+            <a href="https://arxiv.org/abs/2203.07363">[PDF]</a>
+            <a href="papers/[2022][CVPR]VCOD_MoCA-Mask_Chinese.pdf">[中译版]</a>
+            <a href="https://youtu.be/jG01QUk4wjk">[Video]</a>
+            <a href="https://xueliancheng.github.io/SLT-Net-project/">[Project Page]</a>
+            <a href="https://github.com/XuelianCheng/SLT-Net">[Code]</a>
+            <a class="github-button" href="https://github.com/XuelianCheng/SLT-Net" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Implicit_Motion_Handling_for_Video_Camouflaged_Object_Detection_CVPR_2022_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <br><a><strong>In the Year of 2021</strong></a><br>
+        <li>
+          <p>
+            <b>Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions</b><br>
+            Wenhai Wang, Enze Xie, Xiang Li, <strong>Deng-Ping Fan*</strong>, Kaitao Song, Ding Liang, Tong Lu*, Ping Luo, Ling Shao<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Vitural, October 11-17, 2021<br>
+            A pure Transformer backbone for dense prediction, such as object detection and semantic segmentation.<br>
+            [<strong><font color="red">Most Influential ICCV2021 Papers 
+            (<u><a href="https://www.paperdigest.org/2022/02/most-influential-iccv-papers-2022-02/" style="color:#2E41DC;">Top-2</a></u>)
+            </strong></font>, Rate = 10/1617 = 0.62% | <strong><font color="red">Oral</strong></font>, Accept rate = 210/6236 = 3.4%]<br>
+            <a href="https://arxiv.org/abs/2102.12122">[PDF]</a>
+            <a href="papers/[2021][ICCV]PVT_Chinese.pdf">[中译版]</a>
+            <a href="https://zhuanlan.zhihu.com/p/353222035">[中文解读]</a>
+            <a href="papers/[2021][ICCV]PVT-ppt.pdf">[PPT]</a>
+            <a href="https://github.com/whai362/PVT">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/whai362/PVT?style=social"/>-->
+            <a class="github-button" href="https://github.com/whai362/PVT" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Pyramid_Vision_Transformer_A_Versatile_Backbone_for_Dense_Prediction_Without_ICCV_2021_paper.html">[Official Version]</a>
           </p>
         </li> 
         <li>
           <p>
-            <b>MICCAI (1998–) March (3月)  h5: 46</b><br><br>
-              <table border="1" cellspacing="0" width="550">
-              <thead>
-              <tr>
-              <th>year</th>
-              <th>Reviewed</th>
-              <th>oral</th>
-              <th>poster</th>
-              <th>total</th>
-              </tr>
-              </thead>
-              <tbody>
-                <tr>
-                <td>2017</td>
-                <td>800</td>
-                <td> </td>
-                <td> </td>
-                <td>255 (32%)</td>
-                </tr>
-                <tr>
-                <td>2018</td>
-                <td>1068</td>
-                <td> </td>
-                <td> </td>
-                <td>372 (34.9%)</td>
-                </tr>
-                <tr>
-                <td>2019</td>
-                <td>1729 (308 early accept + 579 rebuttal)</td>
-                <td> </td>
-                <td> </td>
-                <td>538 (30%)</td>
-                </tr>
-                <tr>
-                <td>2020</td>
-                <td>1809 (242 early accept + 736 rebuttal)</td>
-                <td>542</td>
-                <td> </td>
-                <td>543 (30%)</td>
-                </tr>
-                <tr>
-                <td>2021</td>
-                <td>1622 (208 early accept + 621 rebuttal)</td>
-                <td>60 (3.699%)</td>
-                <td>533</td>
-                <td>533 (32.6%)</td>
-                </tr>
-                <tr>
-                <td>2022</td>
-                <td>1831 (249 early accept + 675 rebuttal)</td>
-                <td>41(2.239%)</td>
-                <td>535</td>
-                <td>574 (31.3%)</td>
-                </tr>
-                <tr>
-                <td>2023</td>
-                <td>xxx</td>
-                <td>xx(x%)</td>
-                <td>xx</td>
-                <td>xx(x%)</td>
-                </tr>
-              </tbody>
-            </table>
+            <b>RGB-D saliency detection via cascaded mutual information minimization</b><br>
+            Jing Zhang, <strong>Deng-Ping Fan*</strong>, Yuchao Dai, Xin Yu, Yiran Zhong, Nick Barnes, Ling Shao<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Vitural, October 11-17, 2021<br>
+            <a href="https://arxiv.org/abs/2109.07246">[PDF]</a>
+            <a href="papers/[2021][ICCV]CMINet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/JingZhang617/cascaded_rgbd_sod">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_RGB-D_Saliency_Detection_via_Cascaded_Mutual_Information_Minimization_ICCV_2021_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Specificity-preserving RGB-D Saliency Detection</b><br>
+            Tao Zhou, Huazhu Fu, Geng Chen, Yi Zhou, <strong>Deng-Ping Fan*</strong>, Ling Shao<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Vitural, October 11-17, 2021<br>
+            <a href="https://arxiv.org/abs/2108.08162">[PDF]</a>
+            <a href="papers/[2021][ICCV]SPNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/taozh2017/SPNet">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Specificity-Preserving_RGB-D_Saliency_Detection_ICCV_2021_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Full-duplex strategy for video object segmentation</b><br>
+            Ge-Peng Ji, <strong>Deng-Ping Fan*</strong>, Keren Fu, Zhe Wu, Jianbing Shen, Ling Shao<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Vitural, October 11-17, 2021<br>
+            <a href="https://arxiv.org/abs/2108.03151">[PDF]</a>
+            <a href="papers/[2021][ICCV]VSOD_FSNet_Chinese.pdf">[中译版]</a>        
+            <a href="https://github.com/GewelsJI/FSNet">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ji_Full-Duplex_Strategy_for_Video_Object_Segmentation_ICCV_2021_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Kaleido-BERT: Vision-Language Pre-training on Fashion Domain</b><br>
+            Mingchen Zhuge, Dehong Gao, <strong>Deng-Ping Fan*</strong>, Linbo Jin, Ben Chen, Haoming Zhou, Minghui Qiu, Ling Shao<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Vitural, June 19-25, 2021<br>
+            <a href="https://arxiv.org/abs/2103.16110">[PDF]</a>
+            <a href="papers/[2021][CVPR]KaleidoBERT_Chinese.pdf">[中译版]</a>
+            <a href="https://app6ca5octe2206.pc.xiaoe-tech.com/detail/v_609cd21de4b0fe322012dd28/3">[1小时解读]</a>
+            <a href="https://github.com/mczhuge/Kaleido-BERT">[Code]</a>
+            <a class="github-button" href="https://github.com/mczhuge/Kaleido-BERT" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Zhuge_Kaleido-BERT_Vision-Language_Pre-Training_on_Fashion_Domain_CVPR_2021_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Group Collaborative Learning for Co-Salient Object Detection</b><br>
+            Qi Fan, <strong>Deng-Ping Fan*</strong>, Huazhu Fu, Chi-Keung Tang, Ling Shao, Yu-Wing Tai<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Vitural, June 19-25, 2021<br>
+            <a href="https://arxiv.org/abs/2104.01108">[PDF]</a>
+            <a href="papers/[2021][CVPR]GCoNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/fanq15/GCoNet">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Fan_Group_Collaborative_Learning_for_Co-Salient_Object_Detection_CVPR_2021_paper.html">[Official Version]</a>
           </p>
         </li>
         <li>
           <p>
-            <b>CCF 推荐A类中文科技期刊</b><br><br>
-              <table border="1" cellspacing="0" width="650">
-              <thead>
-              <tr>
-              <th>序号</th>
-              <th>名称</th>
-              <th>机构</th>
-              <th>网址</th>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-              <td>1</td>
-              <td>软件学报</td>
-              <td>
-              <p>中国计算机学会</p>
-              <p>中国科学院软件研究所</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://www.jos.org.cn/">http://www.jos.org.cn</a></td>
-              </tr>
-              <tr>
-              <td>2</td>
-              <td>计算机学报</td>
-              <td>
-              <p>中国计算机学会</p>
-              <p>中国科学院计算技术研究所</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://cjc.ict.ac.cn/">http://cjc.ict.ac.cn</a></td>
-              </tr>
-              <tr>
-              <td>3</td>
-              <td>中国科学：信息科学</td>
-              <td>
-              <p>中国科学院</p>
-              <p>国家自然科学基金委员会</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://infocn.scichina.com/">http://infocn.scichina.com</a></td>
-              </tr>
-              <tr>
-              <td>4</td>
-              <td>计算机研究与发展</td>
-              <td>
-              <p>中国计算机学会</p>
-              <p>中国科学院计算技术研究所</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://crad.ict.ac.cn/">http://crad.ict.ac.cn</a></td>
-              </tr>
-              <tr>
-              <td>5</td>
-              <td>计算机辅助设计与图形学学报</td>
-              <td>
-              <p>中国计算机学会</p>
-              <p>中国科学院计算技术研究所</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://www.jcad.cn/">http://www.jcad.cn</a></td>
-              </tr>
-              <tr>
-              <td>6</td>
-              <td>电子学报</td>
-              <td>中国电子学会</td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://www.ejournal.org.cn/">http://www.ejournal.org.cn</a></td>
-              </tr>
-              <tr>
-              <td>7</td>
-              <td>自动化学报</td>
-              <td>
-              <p>中国自动化学会</p>
-              <p>中国科学院自动化研究所</p>
-              </td>
-              <td><a href="http://web.archive.org/web/20220103212753/http://www.aas.net.cn/">http://www.aas.net.cn</a></td>
-              </tr>  
-              </tbody>
-            </table>
+            <b>Mutual Graph Learning for Camouflaged Object Detection</b><br>
+            Qiang Zhai, Xin Li, Fan Yang*, Chenglizhao Chen, Hong Cheng, <strong>Deng-Ping Fan</strong><br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Vitural, June 19-25, 2021<br>
+            <a href="https://arxiv.org/abs/2104.02613">[PDF]</a>
+            <a href="papers/[2021][CVPR]MGL_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/fanyang587/MGL">[Code]</a>
+            <a href="http://openaccess.thecvf.com/content/CVPR2021/papers/Zhai_Mutual_Graph_Learning_for_Camouflaged_Object_Detection_CVPR_2021_paper.pdf">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Camouflaged Object Segmentation with Distraction Mining</b><br>
+            Haiyang Mei, Ge-Peng Ji, Ziqi Wei, Xin Yang*, Xiaopeng Wei, <strong>Deng-Ping Fan</strong><br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Vitural, June 19-25, 2021<br>
+            <a href="https://arxiv.org/abs/2104.10475">[PDF]</a>
+            <a href="papers/[2021][CVPR]PFNet_Chinese.pdf">[中译版]</a>
+            <a href="https://mhaiyang.github.io/CVPR2021_PFNet/index">[Project Page]</a>
+            <a href="https://github.com/Mhaiyang/CVPR2021_PFNet">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Mei_Camouflaged_Object_Segmentation_With_Distraction_Mining_CVPR_2021_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Progressively Normalized Self-Attention Network for Video Polyp Segmentation</b><br>
+            Ge-Peng Ji^, Yu-Cheng Chou^, <strong>Deng-Ping Fan*</strong>, Geng Chen, Huazhu Fu, Debesh Jha, Ling Shao<br>
+            <i>Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>, Strasbourg, France, September 27-October 1, 2021<br>
+            [<strong><font color="red">Early Accept</font></strong>, Accept rate = 13% | <strong><font color="red">Student Travel Award</font></strong>, Rate = 95/1630 = 5.8%]<br>
+            <a href="https://arxiv.org/abs/2105.08468">[PDF]</a>
+            <a href="papers/[2021][MICCAI]PNSNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/GewelsJI/PNS-Net">[Code]</a>
+            <a class="github-button" href="https://github.com/GewelsJI/PNS-Net" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://miccai2021.org/openaccess/paperlinks/2021/09/01/378-Paper0320.html">[Official Version]</a>
+          </p>
+        </li>
+        <br><a><strong>In the Year of 2020</strong></a><br>
+        <li>
+          <p>
+            <b>PraNet: Parallel reverse attention network for polyp segmentation</b><br>
+            <strong>Deng-Ping Fan</strong>, Ge-Peng Ji, Tao Zhou, Geng Chen, Huazhu Fu*, Jianbing Shen*, Ling Shao<br>
+            <i>Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>, Vitural, October 4-8, 2020<br>
+            [<strong><font color="red">Early accept & Oral</font></strong>, Accept rate = 13% | 
+            <strong><a href="papers/PraNet-Award.pdf"><u>JDC 2021</u></a><font color="red"> Most Influential (Application) Paper</font></strong> | 
+            <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_hcore&venue=QLpioUFGyGMJ.2022" style="color:#2E41DC;"> <u>Top-10 Most Cited Paper within 5 Years in MICCAI 2020</u></a> |
+            <strong><font color="red">Best precision</font> of MediaEval 2020 Workshop at Medico Track</strong>]<br>
+            <a href="https://arxiv.org/abs/2006.11392">[PDF]</a>
+            <a href="papers/[2020][MICCAI]PraNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/PraNet">[Code]</a>
+            <a class="github-button" href="https://github.com/DengPingFan/PraNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-59725-2_26">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>BBS-Net: RGB-D salient object detection with a bifurcated backbone strategy network</b><br>
+            <strong>Deng-Ping Fan^</strong>, Yingjie Zhai^, Ali Borji, Jufeng Yang*, Ling Shao<br>
+            <i>European Conference on Computer Vision (ECCV)</i>, Virtual, August 23-28, 2020<br>
+            <a href="https://arxiv.org/abs/2007.02713v1">[PDF]</a>
+            <a href="papers/[2020][ECCV]BBSNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/zyjwuyan/BBS-Net">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/zyjwuyan/BBS-Net?style=social"/>-->
+            <a class="github-button" href="https://github.com/zyjwuyan/BBS-Net" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-58610-2_17">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>JL-DCF: Joint learning and densely-cooperative fusion framework for RGB-D salient object detection</b><br>
+            Keren Fu, <strong>Deng-Ping Fan*</strong>, Ge-Peng Ji, Qijun Zhao<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Virtual, June 14-19, 2020<br>
+            <a href="https://arxiv.org/abs/2004.08515">[PDF]</a>
+            <a href="papers/[2020][CVPR]JLDCF_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/kerenfu/JLDCF/">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fu_JL-DCF_Joint_Learning_and_Densely-Cooperative_Fusion_Framework_for_RGB-D_Salient_CVPR_2020_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>UC-Net: Uncertainty inspired rgb-d saliency detection via conditional variational autoencoders*</b><br>
+            Jing Zhang, <strong>Deng-Ping Fan*</strong>, Yuchao Dai, Saeed Anwar, Fatemeh Sadat Saleh, Tong Zhang, Nick Barnes<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Virtual, June 14-19, 2020<br>
+            [<strong><font color="red">Best Paper Nomination & Oral</font></strong>]<br>
+            <a href="https://arxiv.org/abs/2004.05763">[PDF]</a>
+            <a href="papers/[2020][CVPR]UCNet_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/JingZhang617/UCNet">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/JingZhang617/UCNet?style=social"/>-->
+            <a class="github-button" href="https://github.com/JingZhang617/UCNet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhang_UC-Net_Uncertainty_Inspired_RGB-D_Saliency_Detection_via_Conditional_Variational_Autoencoders_CVPR_2020_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Taking a deeper look at co-salient object detection</b><br>
+            <strong>Deng-Ping Fan^</strong>, Zheng Lin^, Ge-Peng Ji, Dingwen Zhang, Huazhu Fu, Ming-Ming Cheng*<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Virtual, June 14-19, 2020<br>
+            <a href="">[PDF]</a>
+            <a href="papers/[2020][CVPR]CoSOD3k_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/CoSOD3K">[Project Page]</a>
+            <a href="CoSalBenchmark-EvaluationTools.zip">[Evaluation Code]</a>
+            <a href="https://pan.baidu.com/s/1FQZyg39it7pSoXrSa9k6VA">[CoSOD3K (Baidu: ky1v)]</a>
+             <a href="https://drive.google.com/file/d/1nv20lZMMhHEOe9_elDHy2motgMtejCZM/view?usp=sharing">[CoSOD3K (Google)]</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Taking_a_Deeper_Look_at_Co-Salient_Object_Detection_CVPR_2020_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Camouflaged object detection</b><br>
+            <strong>Deng-Ping Fan</strong>, Ge-Peng Ji, Guolei Sun, Ming-Ming Cheng, Jianbing Shen*, Ling Shao<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Virtual, June 14-19, 2020<br>
+            [<strong><font color="red">Oral</font></strong>, Accept rate = 335/5865 = 5.7% | <strong><font color="red">Coverage of 《<a href="papers/《New Scientist》Coverage.pdf">New scientist</a>》</font></strong>]<br>
+            <a href="">[PDF]</a>
+            <a href="papers/[2020][CVPR]COD_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/SINet/">[Code]</a>
+            <a class="github-button" href="https://github.com/DengPingFan/SINet" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://dengpingfan.github.io/pages/COD.html">[Project Page]</a>
+            <a href="http://mmcheng.net/cod/">[Online Demo]</a> 
+            <a href="https://app6ca5octe2206.pc.xiaoe-tech.com/detail/v_60a36389e4b0adb2d8652c35/3">[1小时解读]</a>
+            <a href="https://mmcheng.net/wp-content/uploads/2022/02/1052-oral.mp4">[Video]</a>
+            <a href="https://pan.baidu.com/s/1EtH2tUdbBt16w5dgve7JhQ">[2.25G COD10K_All (Baidu: w3up)]</a>
+            <a href="https://drive.google.com/file/d/1vRYAie0JcNStcSwagmCq55eirGyMYGm5/view?usp=sharing">[2.25G COD10K_All (Google)]</a>
+            <a href="">[微信群 (WeChat: CVer222)]</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <br><a><strong>Before 2019</strong></a><br>
+        <li>
+          <p>
+            <b>Shifting More Attention to Video Salient Object Detection</b><br>
+            <strong>Deng-Ping Fan</strong>, Wenguan Wang, Ming-Ming Cheng*, Jianbing Shen<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Long Beach, USA, June 16-20, 2019<br>
+            [<strong><font color="red">Best Paper Finalist & Oral</font></strong>]<br>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Shifting_More_Attention_to_Video_Salient_Object_Detection_CVPR_2019_paper.html">[PDF]</a>
+            <a href="papers/[2019][CVPR]SSAV_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/DAVSOD">[Project Page]</a>
+            <a href="https://github.com/DengPingFan/DAVSOD">[Code]</a>
+            <!--<img src="https://img.shields.io/github/stars/DengPingFan/DAVSOD?style=social"/>-->
+            <a class="github-button" href="https://github.com/DengPingFan/DAVSOD" data-icon="octicon-star" data-show-count="true">Star</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Shifting_More_Attention_to_Video_Salient_Object_Detection_CVPR_2019_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Scoot: A Perceptual Metric for Facial Sketches</b><br>
+            <strong>Deng-Ping Fan</strong>, ShengChuan Zhang, Yu-Huan Wu, Yun Liu, Ming-Ming Cheng*, Bo Ren, Paul Rosin, Rongrong Ji<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Seoul, Korea, October 27-November 02, 2019<br>
+            <a href="https://arxiv.org/abs/1908.08433.pdf">[PDF]</a>
+            <a href="papers/[2019][ICCV]Scoot_Chinese.pdf">[中译版]</a>
+            <a href="https://mmcheng.net/scoot/">[Project Page]</a>
+            <a href="https://yun-liu.github.io/materials/ICCV2019_Scoot_Supplementary.pdf">[Supplementary Material]</a>
+            <a href="https://github.com/DengPingFan/Scoot">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content_ICCV_2019/html/Fan_Scoot_A_Perceptual_Metric_for_Facial_Sketches_ICCV_2019_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Contrast Prior and Fluid Pyramid Integration for RGBD Salient Object Detection</b><br>
+            Jia-Xing Zhao^, Yang Cao^, <strong>Deng-Ping Fan^</strong>, Ming-Ming Cheng*, Xuan-Yi Li, Le Zhang<br>
+            <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, Long Beach, California, June 16-20, 2019<br>
+            <a href="">[PDF]</a>
+            <a href="papers/[2019][CVPR]CPFP_Chinese.pdf">[中译版]</a>
+            <a href="https://mmcheng.net/rgbdsalpyr/">[Project Page]</a>
+            <a href="https://github.com/JXingZhao/ContrastPrior">[Code]</a>
+            <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Zhao_Contrast_Prior_and_Fluid_Pyramid_Integration_for_RGBD_Salient_Object_CVPR_2019_paper.html">[Official Version]</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Enhanced-alignment measure for binary foreground map evaluation</b><br>
+            <strong>Deng-Ping Fan</strong>, Cheng Gong, Yang Cao, Bo Ren*, Ming-Ming Cheng, Ali Borji<br>
+            <i>International Joint Conference on Artificial Intelligence (IJCAI)</i>, Stockholm, Sweden, July 13-19, 2018<br>
+            [<strong><font color="red">Most Influential IJCAI Papers (<u><a href="https://www.paperdigest.org/2022/05/most-influential-ijcai-papers-2022-05/" style="color:#2E41DC;">Top-6</a></u>)
+            </strong></font>, Accept Rate = 6/710 = 0.8% | <strong><font color="red">Oral</strong></font>]<br>
+            <a href="https://arxiv.org/abs/1805.10421">[PDF]</a>
+            <a href="papers/[2018][IJCAI]Emeasure_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/E-measure">[Code]</a>
+            <a href="https://drive.google.com/file/d/10c_PU4pa-7KJ-c2puLfTRE0ZBWgPBwiS/view?usp=sharing">[Meta-measure]</a>
+            <a href="ppts/Emeasure-IJCAI2018.pptx">[PPT]</a>
+            <a href="https://drive.google.com/file/d/18tV4Fn8SZrVA5GunPpGbM_uabzDEEayZ/view">[Dataset]</a>
+            <a href="https://www.ijcai.org/proceedings/2018/97">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Salient objects in clutter: Bringing salient object detection to the foreground</b><br>
+            <strong>Deng-Ping Fan</strong>, Ming-Ming Cheng*, Jiang-Jiang Liu, Shang-Hua Gao, Qibin Hou, Ali Borji<br>
+            <i>European Conference on Computer Vision (ECCV)</i>, Munich, Germany, September 8-14, 2018<br>
+            <a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Deng-Ping_Fan_Salient_Objects_in_ECCV_2018_paper.pdf">[PDF]</a>
+            <a href="papers/[2018][ECCV]SOCBenchmark_Chinese.pdf">[中译版]</a>
+            <a href="https://mmcheng.net/socbenchmark/">[Project Page]</a>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-01267-0_12">[Official Version]</a>
+          </p>
+        </li> 
+        <li>
+          <p>
+            <b>Structure-measure: A New Way to Evaluate Foreground Maps</b><br>
+            <strong>Deng-Ping Fan</strong>, Ming-Ming Cheng*, Yun Liu, Tao Li, Ali Borji<br>
+            <i>International Conference on Computer Vision (ICCV)</i>, Venice, Italy, October 22-29, 2017<br>
+            [<strong><font color="red">Spotlight</font></strong>, Accept rate = 56/2143 = 2.6%]<br>
+            <a href="https://arxiv.org/abs/1708.00786">[PDF]</a>
+            <a href="papers/[2017][ICCV]S-measure_Chinese.pdf">[中译版]</a>
+            <a href="https://github.com/DengPingFan/S-measure">[Code]</a>
+            <a href="https://drive.google.com/file/d/10c_PU4pa-7KJ-c2puLfTRE0ZBWgPBwiS/view?usp=sharing">[Meta-measure]</a>
+            <a href="https://yun-liu.github.io/materials/ICCV2017_S-measure_PPT.pdf">[PPT]</a>
+            <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Fan_Structure-Measure_A_New_ICCV_2017_paper.html">[Official Version]</a>
+          </p>
+        </li> 
+      </ul>
+      
+      <!-- Patents -->
+      <h2> 
+        <a id="Patents" class = "anchor" href="#Patents" >Patents</a>
+      </h2>
+      <ul>
+        <li>
+          <p>
+            US Patent App. 17/186,745, 2022, <a href="https://patentimages.storage.googleapis.com/0b/bd/b0/30f3936eed045e/US20220277218A1.pdf">Domain Specific Pre-training of Cross Modality Transformer Model</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            US Patent App. 17/475,099, 2022, <a href="https://patentimages.storage.googleapis.com/98/6c/15/49188c6b4910f3/US20220253639A1.pdf">Complementary Learning for Multi-modal Saliency Detection</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            US Patent App. 17/336,748, 2022, <a href="https://patentimages.storage.googleapis.com/6d/57/ba/9aae39675c7f00/US20220230324A1.pdf">Camouflaged Object Segmentation Method with Distraction Mining</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL202110180500.8, 2022, <a href="http://www.soopat.com/Patent/202110180500">Grouping reverse attention-based camouflage object detection method and system</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL202110078735.6, 2022, <a href="http://www.soopat.com/Patent/202110078735">Camouflage target image segmentation method based on information mining</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL202110160367.X, 2022, <a href="http://www.soopat.com/Patent/202110160367">Cooperative saliency object detection method and system based on collaborative learning</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL201910347420.X, 2022, <a href="http://www.soopat.com/Patent/201910347420">Video saliency object detection method based on attention transfer mechanism</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL201810173285.7, 2022, <a href="http://www.soopat.com/Patent/201810173285">Deep network-based universal detection method for multiple types of tasks</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL201911416282.2, 2021, <a href="http://www.soopat.com/Patent/201911416282">RGBD salient object detection method based on twin network</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Chinese Patent App. ZL201810171102.8, 2021, <a href="http://www.soopat.com/Patent/201810171102">Binary-system-based foreground image similarity evaluation method</a>
           </p>
         </li>
       </ul>
-  
+
       <div id="footer">
         <div id="footer-text"></div>
       </div>
